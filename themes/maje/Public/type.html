@@ -1,0 +1,71 @@
+<div class="container">
+			<div class="about-top heading">
+				<h1>公司介绍</h1>
+				<h4>Cum sociis natoque penatibus et magnis dis parturient montes , nascetur ridiculus mus.</h4>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et dignissim augue, et sagittis turpis. Vestibulum congue turpis ac tincidunt accumsan. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orc i ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. </p>
+				<div class="about-bottom">
+					
+					<!-- one -->
+					<php>
+					$TypeOne=sp_sql_posts('cid:11;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
+					</php>
+					<volist name="TypeOne" id="vo" offset="0" length="1">
+					<php>
+    				$smeta=json_decode($vo['smeta'],true);/* 把smeta转化成数组 */
+    				</php>
+					<div class="col-md-3 about-left">
+						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
+						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
+						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
+						<p>{$vo.post_excerpt}</p>
+					</div>
+					</volist>
+					<!-- two -->
+					<php>
+					$TypeOne=sp_sql_posts('cid:12;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
+					</php>
+					<volist name="TypeOne" id="vo" offset="0" length="1">
+					<php>
+    				$smeta=json_decode($vo['smeta'],true);/* 把smeta转化成数组 */
+    				</php>
+					<div class="col-md-3 about-left">
+						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
+						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
+						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
+						<p>{$vo.post_excerpt}</p>
+					</div>
+					</volist>
+					<!-- three -->
+					<php>
+					$TypeOne=sp_sql_posts('cid:13;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
+					</php>
+					<volist name="TypeOne" id="vo" offset="0" length="1">
+					<php>
+    				$smeta=json_decode($vo['smeta'],true);/* 把smeta转化成数组 */
+    				</php>
+					<div class="col-md-3 about-left">
+						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
+						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
+						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
+						<p>{$vo.post_excerpt}</p>
+					</div>
+					</volist>
+					<!-- four --><php>
+					$TypeOne=sp_sql_posts('cid:14;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
+					</php>
+					<volist name="TypeOne" id="vo" offset="0" length="1">
+					<php>
+    				$smeta=json_decode($vo['smeta'],true);/* 把smeta转化成数组 */
+    				</php>
+					<div class="col-md-3 about-left">
+						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
+						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
+						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
+						<p>{$vo.post_excerpt}</p>
+					</div>
+					</volist>
+					
+
+					<div class="clearfix"></div>
+				</div>
+			</div>

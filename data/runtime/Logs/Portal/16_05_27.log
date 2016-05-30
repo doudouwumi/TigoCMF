@@ -1,0 +1,1061 @@
+[ 2016-05-27T09:26:07+08:00 ] ::1 /thinkcmftigo/index.php?g=portal&m=article&a=index&id=2
+ERR: 1054:Unknown column 'Array' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `cmf_comments` WHERE `status` = 1 ORDER BY createtime desc,Array LIMIT 0,5  
+
+[ 2016-05-27T09:30:44+08:00 ] ::1 /thinkcmftigo/index.php?g=portal&m=article&a=index&id=3
+ERR: 1054:Unknown column 'whereCommentsId' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `cmf_comments` WHERE `status` = 1 ORDER BY createtime desc,whereCommentsId LIMIT 0,5  
+
+[ 2016-05-27T09:30:52+08:00 ] ::1 /thinkcmftigo/index.php?g=portal&m=article&a=index&id=3
+ERR: 1054:Unknown column 'whereCommentsId' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `cmf_comments` WHERE `status` = 1 ORDER BY createtime desc,whereCommentsId LIMIT 0,5  
+
+[ 2016-05-27T09:33:32+08:00 ] ::1 /thinkcmftigo/index.php?g=portal&m=article&a=index&id=3
+ERR: 1054:Unknown column 'whereCommentsId' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `cmf_comments` WHERE `status` = 1 ORDER BY createtime desc,whereCommentsId LIMIT 0,3  
+
+[ 2016-05-27T10:52:48+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:53:29+08:00 ] ::1 /thinkcmftigo/single.html
+ERR: 无法加载控制器:Single
+
+[ 2016-05-27T10:56:50+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:57:14+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:57:36+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:57:51+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:58:04+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:58:15+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:58:36+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T10:59:44+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:00:00+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:00:32+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T11:00:34+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T11:01:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: post_content E:\Web\ThinkCMFtigo\application\Portal\Controller\AdminPostController.class.php 第 56 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_date`,`post_author`,`smeta`,`post_content`) VALUES ('1','','','Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.','2016-05-27 11:00:34','1','0','0','2016-05-27 11:01:52','1','{\"thumb\":\"20160527\\/5747b89c6e36f.jpg\"}','') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('4','16') [ RunTime:0.0000s ]
+
+[ 2016-05-27T11:01:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T11:02:21+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2','','','Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.','2016-05-27 11:01:55','1','0','0','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.</span></p>','2016-05-27 11:02:21','1','{\"thumb\":\"20160527\\/5747b8b98425c.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('4','17') [ RunTime:0.0000s ]
+
+[ 2016-05-27T11:02:23+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T11:02:46+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('3','','','Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.','2016-05-27 11:02:23','1','0','0','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.</span></p>','2016-05-27 11:02:46','1','{\"thumb\":\"20160527\\/5747b8d2f23ca.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('4','18') [ RunTime:0.0000s ]
+
+[ 2016-05-27T11:02:50+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T11:03:06+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0040s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('4','','','Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.','2016-05-27 11:02:50','1','0','0','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Nunc quis turpis sed tortor viverra dictum. Etiam in cursus libero, ut cursus turpis. Nulla quis nulla pellentesque, commodo lorem sed, ultrices leo. Duis magna mauris, cursus vitae lacus ut, consequat malesuada magna. Duis bibendum pellentesque nisi eget volutpat. Nunc rhoncus ultrices lectus.Aliquam eu dui quis orci ultrices eleifend ut non massa. Duis commodo, ante in vulputate iaculis, libero ex fringilla dolor, id laoreet augue lorem in velit.</span></p>','2016-05-27 11:03:06','1','{\"thumb\":\"20160527\\/5747b8e7a4e9e.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('4','19') [ RunTime:0.0000s ]
+
+[ 2016-05-27T11:03:08+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T11:14:07+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='0',`name`='新闻中心',`description`='Blog',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='blog',`one_tpl`='single' WHERE `term_id` = '4' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-4' WHERE ( term_id=4 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T11:20:31+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:21:27+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:22:00+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:22:57+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:25:16+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:26:20+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:42:59+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:46:58+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:47:12+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:47:32+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:51:01+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:52:06+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:52:22+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:52:26+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:52:48+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:53:15+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:53:18+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:53:41+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:53:46+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:57:38+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:57:53+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T11:58:55+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T12:00:01+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T12:01:20+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T12:07:19+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T12:12:08+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=&id=16
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T13:16:10+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:17:34+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:19:20+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:19:35+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:19:56+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:20:02+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:20:08+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:20:13+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:20:24+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:22:01+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:22:08+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:22:28+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:22:59+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:23:28+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:23:58+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:24:07+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:24:32+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:25:38+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:25:59+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:26:24+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:26:30+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:28:02+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:28:07+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:28:20+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:28:30+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:28:34+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:30:35+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:30:38+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:30:51+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T13:30:55+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T14:12:18+08:00 ] ::1 /thinkcmftigo/index.php?m=list&a=index&id=4
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY createtime desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `cmf_comments` WHERE ( status=1 AND post_id= ) ORDER BY createtime desc 
+
+[ 2016-05-27T14:13:33+08:00 ] ::1 /thinkcmftigo/index.php?m=list&a=index&id=4
+ERR: 模板不存在:themes/maje/Portal/.html
+
+[ 2016-05-27T14:36:02+08:00 ] ::1 /thinkcmftigo/index.php?m=list&a=index&id=4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM cmf_comments a INNER JOIN cmf_posts b ON a.id = b.post_id  WHERE ( post_id=id ) LIMIT 1  
+
+[ 2016-05-27T14:37:32+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:38:09+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('1','1','1','1','2016-05-27 14:37:32','1','0','0','<p>1</p>','2016-05-27 14:38:09','1','{\"thumb\":\"20160527\\/5747eb4d4f202.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','20') [ RunTime:0.0010s ]
+
+[ 2016-05-27T14:38:12+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:38:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2','2','2','2','2016-05-27 14:38:12','1','0','0','<p>2</p>','2016-05-27 14:38:55','1','{\"thumb\":\"20160527\\/5747eb6438bd8.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','21') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:38:57+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:39:19+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('3','3','3','3','2016-05-27 14:38:57','1','0','0','<p>3</p>','2016-05-27 14:39:19','1','{\"thumb\":\"20160527\\/5747eb935ccc9.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','22') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:39:21+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:39:37+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('4','4','4','4','2016-05-27 14:39:21','1','0','0','<p>4</p>','2016-05-27 14:39:37','1','{\"thumb\":\"20160527\\/5747eba5a5907.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','23') [ RunTime:0.0010s ]
+
+[ 2016-05-27T14:39:39+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:39:54+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('5','5','5','5','2016-05-27 14:39:39','1','0','0','<p>5</p>','2016-05-27 14:39:54','1','{\"thumb\":\"20160527\\/5747ebb7728b1.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','24') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:39:57+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:40:10+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('6','6','6','6','2016-05-27 14:39:57','1','0','0','<p>6</p>','2016-05-27 14:40:10','1','{\"thumb\":\"20160527\\/5747ebc737ece.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','25') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:40:12+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:40:20+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:40:23+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:40:38+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('7','7','7','7','2016-05-27 14:40:23','1','0','0','<p>7</p>','2016-05-27 14:40:38','1','{\"thumb\":\"20160527\\/5747ebe314ea0.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','26') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:40:40+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:40:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('8','8','8','8','2016-05-27 14:40:40','1','0','0','<p>8</p>','2016-05-27 14:40:55','1','{\"thumb\":\"20160527\\/5747ebf47cac4.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','27') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:40:57+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:41:09+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('9','9','9','9','2016-05-27 14:40:57','1','0','0','<p>9</p>','2016-05-27 14:41:09','1','{\"thumb\":\"20160527\\/5747ec0278f64.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','28') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:41:11+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:41:23+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('10','10','10','10','2016-05-27 14:41:11','1','0','0','<p>10</p>','2016-05-27 14:41:23','1','{\"thumb\":\"20160527\\/5747ec10a26b7.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','29') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:41:26+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:41:42+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('11','11','11','11','2016-05-27 14:41:26','1','0','0','<p>11</p>','2016-05-27 14:41:42','1','{\"thumb\":\"20160527\\/5747ec2166d6d.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','30') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:41:44+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:41:48+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:42:02+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('12','12','12','12','2016-05-27 14:41:48','1','0','0','<p>12</p>','2016-05-27 14:42:02','1','{\"thumb\":\"20160527\\/5747ec3724010.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','31') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:42:04+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:42:20+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('13','13','13','13','2016-05-27 14:42:04','1','0','0','<p>13</p>','2016-05-27 14:42:20','1','{\"thumb\":\"20160527\\/5747ec465643d.jpg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','32') [ RunTime:0.0000s ]
+
+[ 2016-05-27T14:42:24+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T14:45:38+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T14:48:34+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T14:48:52+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T14:49:31+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T14:57:09+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T15:07:31+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T15:07:37+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T15:07:40+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=6
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T15:08:39+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('14','14','14','14','2016-05-27 15:07:40','1','0','0','<p>14</p>','2016-05-27 15:08:39','1','{\"thumb\":\"20160527\\/5747f273202ad.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('6','33') [ RunTime:0.0000s ]
+
+[ 2016-05-27T15:08:41+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T15:18:21+08:00 ] ::1 /thinkcmftigo/map.html
+ERR: 无法加载控制器:Map
+
+[ 2016-05-27T15:28:35+08:00 ] ::1 /thinkcmftigo/index.php/portal/map
+ERR: 无法加载控制器:Map
+
+[ 2016-05-27T15:29:26+08:00 ] ::1 /thinkcmftigo/index.php/portal/map
+ERR: 无法加载控制器:Map
+
+[ 2016-05-27T15:29:28+08:00 ] ::1 /thinkcmftigo/index.php/portal/map
+ERR: 无法加载控制器:Map
+
+[ 2016-05-27T15:31:59+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T15:34:50+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T15:35:25+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T15:35:51+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-27T16:04:20+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:05:18+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:07:36+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_type`,`post_title`,`post_keywords`,`post_excerpt`,`post_modified`,`post_status`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2','学龄前培训','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:05:18','1','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span></p>','2016-05-27 16:07:36','1','{\"template\":\"single\",\"thumb\":\"20160527\\/57480043bad94.jpg\"}') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:07:38+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:07:39+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:08:18+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: post_content E:\Web\ThinkCMFtigo\application\Portal\Controller\AdminPageController.class.php 第 141 行.
+SQL: INSERT INTO `cmf_posts` (`post_type`,`post_title`,`post_keywords`,`post_excerpt`,`post_modified`,`post_status`,`post_date`,`post_author`,`smeta`,`post_content`) VALUES ('2','传统文化教育、培训以及咨询服务','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:07:39','1','2016-05-27 16:08:18','1','{\"template\":\"single\",\"thumb\":\"20160527\\/5748006ec863a.jpg\"}','') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:08:21+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:08:22+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:08:49+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_type`,`post_title`,`post_keywords`,`post_excerpt`,`post_modified`,`post_status`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2','传统中医学的养生保健服务','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:08:22','1','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span></p>','2016-05-27 16:08:49','1','{\"template\":\"single\",\"thumb\":\"20160527\\/5748008e862e9.jpeg\"}') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:08:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:08:53+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:09:16+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cmf_posts` (`post_type`,`post_title`,`post_keywords`,`post_excerpt`,`post_modified`,`post_status`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2','中华传统文化对外交流','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:08:52','1','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span></p>','2016-05-27 16:09:16','1','{\"template\":\"single\",\"thumb\":\"20160527\\/574800a92080a.jpeg\"}') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:09:18+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:09:20+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPage&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:09:24+08:00 ] ::1 /ThinkCMFtigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:18:10+08:00 ] ::1 /thinkcmftigo/index.php?m=list&a=index&id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADC id<38 ) ORDER BY id ASC' at line 1
+ [ SQL语句 ] : SELECT * FROM `cmf_posts` WHERE ( id>33 ADC id<38 ) ORDER BY id ASC 
+
+[ 2016-05-27T16:19:20+08:00 ] ::1 /ThinkCMFtigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:19:20+08:00 ] ::1 /ThinkCMFtigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:20:32+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:20:32+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:20:49+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:20:49+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:26:36+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:26:55+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:33:36+08:00 ] ::1 /thinkcmftigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T16:33:50+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:34:48+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('3','学龄前培训','学龄前培训','article','','','','about','single') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-11' WHERE ( term_id=11 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:35:28+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('3','传统文化教育、培训以及咨询服务','','article','','','','about','single') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-12' WHERE ( term_id=12 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:35:58+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('3','传统中医学的养生保健服务','传统中医学的养生保健服务','article','','','','about','single') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-13' WHERE ( term_id=13 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:36:25+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('0','中华传统文化对外交流','','article','','','','about','single') [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-14' WHERE ( term_id=14 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:37:03+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:37:05+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:37:33+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:38:14+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('0','中华传统文化对外交流','','article','','','','about','single') [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-15' WHERE ( term_id=15 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:38:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:38:58+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:39:49+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('学龄前培训','','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:38:58','1','0','0','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span></p>','2016-05-27 16:39:49','1','{\"thumb\":\"20160527\\/574807b12a21e.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('11','38') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:39:51+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:39:53+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:40:21+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('传统文化教育、培训以及咨询服务','','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:39:53','1','0','0','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span></p>','2016-05-27 16:40:21','1','{\"thumb\":\"20160527\\/574807f15b471.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('12','39') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:40:24+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:40:25+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:41:13+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('传统中医学的养生保健服务','','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.','2016-05-27 16:40:24','1','0','0','<p><span style=\"color: rgb(153, 153, 153); font-family: &quot;Titillium Web&quot;, sans-serif; font-size: 15px; line-height: 24px; background-color: rgb(255, 255, 255);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</span></p>','2016-05-27 16:41:13','1','{\"thumb\":\"20160527\\/574808255ccef.jpeg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('12','40') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:41:15+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:41:16+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:41:45+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('中华传统文化对外交流','','','Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.
+','2016-05-27 16:41:15','1','0','0','<p style=\"box-sizing: border-box; margin-top: 2.54688px; margin-bottom: 0px; font-size: 15px; line-height: 1.6em; color: rgb(153, 153, 153);\">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</p><p><br/></p>','2016-05-27 16:41:45','1','{\"thumb\":\"20160527\\/57480845a6b9e.jpeg\"}') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('13','41') [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:41:47+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T16:41:48+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:46:15+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=delete&id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_terms` WHERE `parent` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_terms` WHERE `term_id` = 15 [ RunTime:0.0312s ]
+
+[ 2016-05-27T16:46:25+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='3',`name`='中华传统文化对外交流',`description`='',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='about',`one_tpl`='single' WHERE `term_id` = '14' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-14' WHERE ( term_id=14 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE `parent` = '14'  [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:48:16+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='3',`name`='首页和公司简介页1/4大类（只链接排序为1的底部一篇文章）',`description`='首页和公司简介页1/4大类（只链接排序为1的底部一篇文章）',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='about',`one_tpl`='single' WHERE `term_id` = '11' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-11' WHERE ( term_id=11 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:48:23+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:48:56+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=&id=38
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:50:16+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='3',`name`='首页（最下）和公司简介页（最上）1/4大类（只链接排序为1的一篇文章）',`description`='首页（最下）和公司简介页（最上）1/4大类（只链接排序为1的一篇文章）',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='about',`one_tpl`='single' WHERE `term_id` = '11' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-11' WHERE ( term_id=11 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:50:37+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='3',`name`='首页（最下）和公司简介页（最上）2/4大类（只链接排序为1的一篇文章）',`description`='首页（最下）和公司简介页（最上）2/4大类（只链接排序为1的一篇文章）',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='about',`one_tpl`='single' WHERE `term_id` = '12' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-12' WHERE ( term_id=12 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:50:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='3',`name`='首页（最下）和公司简介页（最上）3/4大类（只链接排序为1的一篇文章）',`description`='首页（最下）和公司简介页（最上）3/4大类（只链接排序为1的一篇文章）',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='about',`one_tpl`='single' WHERE `term_id` = '13' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-13' WHERE ( term_id=13 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:51:13+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='3',`name`='首页（最下）和公司简介页（最上）4/4大类（只链接排序为1的一篇文章）',`description`='首页（最下）和公司简介页（最上）4/4大类（只链接排序为1的一篇文章）',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='about',`one_tpl`='single' WHERE `term_id` = '14' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_terms` WHERE ( term_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-3-14' WHERE ( term_id=14 ) [ RunTime:0.0000s ]
+
+[ 2016-05-27T16:51:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:51:56+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:52:00+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T16:57:34+08:00 ] ::1 /ThinkCMFtigo/data/upload/%7B
+ERR: 无法加载控制器:Data
+
+[ 2016-05-27T17:03:09+08:00 ] ::1 /thinkcmftigo/single.html
+ERR: 无法加载控制器:Single
+
+[ 2016-05-27T17:04:22+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:04:27+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:04:31+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=11&id=38
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:11:49+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:11:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:11:53+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:12:53+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: post_content E:\Web\ThinkCMFtigo\application\Portal\Controller\AdminPostController.class.php 第 56 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_date`,`post_author`,`smeta`,`post_content`) VALUES ('中华传统文化对外交流','','','中华传统文化对外交流','2016-05-27 17:11:53','1','0','0','2016-05-27 17:12:53','1','{\"thumb\":\"20160527\\/57480f914d723.jpeg\"}','') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('14','42') [ RunTime:0.0010s ]
+
+[ 2016-05-27T17:12:56+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:12:57+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPage&a=index&menuid=25
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-05-27T17:13:54+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:13:57+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=11&id=38
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:14:17+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:14:21+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-27T17:14:24+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=14&id=42
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+

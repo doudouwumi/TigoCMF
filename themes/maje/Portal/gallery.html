@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+		<title>{$site_seo_title} {$site_name}</title>
+		<meta name="keywords" content="{$site_seo_keywords}" />
+		<meta name="description" content="{$site_seo_description}">
+		<tc_include file="Public:head" />
+		
+<!---- start-smoth-scrolling---->
+</head>
+<body>
+	<!----start-header---->
+	<div class="header" id="home">
+<tc_include file="Public:nav" />
+	</div>	
+	<!----end-header---->
+	<!--light-box-files -->
+		<script src="__TMPL__Public/js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="__TMPL__Public/css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery-bottom a').Chocolat();
+		});
+		</script>
+	<!--gallery-starts--> 
+	<div class="gallery">
+		<div class="container">
+			<div class="gallery-top heading">
+				<h1>OUR GALLERY</h1>
+			</div>
+			<div class="gallery-bottom">
+			<php>$pagetpl="{prev}{liststart}{list}{listend}{next}";$lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;order:listorder desc;",12,$pagetpl);</php>
+			<volist name="lists['posts']" id="vo">
+			<php>$smeta=json_decode($vo['smeta'], true);</php>
+					<div class="col-md-3 gallery-left" style="margin-bottom:30px">
+						<a href="{:sp_get_asset_upload_path($smeta['thumb'])}">
+							<img style="width:250px;height:200px" class="lazyOwl" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="name" />
+						</a>
+					</div>
+				</volist>	
+			</div>
+			
+		</div>
+		<center>
+		<div class="pagination" style="margin:0 auto">
+				<nav>
+  					<ul class="pager">
+    					{$lists.page}
+    				</ul>
+				</nav>
+			</div>
+			</center>
+	</div>	
+	
+	<!----gallery-end---->
+	<!--footer-starts--> 
+<div class="footer">
+		<tc_include file="Public:footer" />
+	</div>
+	<!--footer-ends--> 
+</body>
+</html>
