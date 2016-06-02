@@ -29,14 +29,14 @@
     		
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Majestic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="/thinkcmftigo/themes/maje/Public/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/thinkcmftigo/themes/maje/Public/css/style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.useso.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 <script src="/thinkcmftigo/themes/maje/Public/js/jquery-1.11.0.min.js"></script>
 <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/move-top.js"></script>
 <script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/easing.js"></script>
 <link rel="stylesheet" type="text/css" href="/thinkcmftigo/themes/maje/Public/css/common.css" />
@@ -49,7 +49,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
-		</script><script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/modernizr.custom.79639.js"></script>
+		</script>
+<style>*{font-family: 微软雅黑}</style><script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/modernizr.custom.79639.js"></script>
 <!---- start-smoth-scrolling---->
 </head>
 
@@ -141,68 +142,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!----end-header---->
 	<!--about-starts--> 
 	<div class="about">
-		<div class="container">
+		
+<div class="container">
+<?php
+$tag='cid:9;field:tid,post_title,post_excerpt,smeta;order:listorder asc'; $project=sp_sql_posts($tag); $i=1; ?>
 			<div class="about-top heading">
-				<h1>公司介绍</h1>
-				<h4>Cum sociis natoque penatibus et magnis dis parturient montes , nascetur ridiculus mus.</h4>
-				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et dignissim augue, et sagittis turpis. Vestibulum congue turpis ac tincidunt accumsan. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orc i ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. </p>
+				<h1>关于慧谦</h1>
+				<h4>慧谦文化传播有限公司简介</h4>
+				<p>慧谦文化传播有限公司成立于2013年，位于广东省东莞市，是一家致力于学习，交流和传播中华传统文化的年轻企业。朝气与活力是公司的名片，创新与进取则是公司的灵魂。长期以来，公司培养打造了一支热情积极，成熟干练的专业团队，聚集了众多业内知名的文化人士，努力打造精致的文化产品，涉及学龄前培训，传统文化教育，培训以及咨询服务，传统中医学的养生保健服务，中华传统文化对外交流等。</p>
 				<div class="about-bottom">
 					
-					<!-- one -->
-					<?php $TypeOne=sp_sql_posts('cid:11;field:post_title,smeta,tid,post_excerpt;order:listorder asc'); ?>
-					<?php if(is_array($TypeOne)): $i = 0; $__LIST__ = array_slice($TypeOne,0,1,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'],true); ?>
-					<div class="col-md-3 about-left">
-						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>
-						"><img style="width:250px;height:200px" src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /></a>
-						<center><h5><a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><?php echo ($vo["post_title"]); ?></a></h5></center>
-						<p><?php echo ($vo["post_excerpt"]); ?></p>
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
-					<!-- two -->
-					<?php $TypeOne=sp_sql_posts('cid:12;field:post_title,smeta,tid,post_excerpt;order:listorder asc'); ?>
-					<?php if(is_array($TypeOne)): $i = 0; $__LIST__ = array_slice($TypeOne,0,1,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'],true); ?>
-					<div class="col-md-3 about-left">
-						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>
-						"><img style="width:250px;height:200px" src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /></a>
-						<center><h5><a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><?php echo ($vo["post_title"]); ?></a></h5></center>
-						<p><?php echo ($vo["post_excerpt"]); ?></p>
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
-					<!-- three -->
-					<?php $TypeOne=sp_sql_posts('cid:13;field:post_title,smeta,tid,post_excerpt;order:listorder asc'); ?>
-					<?php if(is_array($TypeOne)): $i = 0; $__LIST__ = array_slice($TypeOne,0,1,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'],true); ?>
-					<div class="col-md-3 about-left">
-						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>
-						"><img style="width:250px;height:200px" src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /></a>
-						<center><h5><a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><?php echo ($vo["post_title"]); ?></a></h5></center>
-						<p><?php echo ($vo["post_excerpt"]); ?></p>
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
-					<!-- four --><?php $TypeOne=sp_sql_posts('cid:14;field:post_title,smeta,tid,post_excerpt;order:listorder asc'); ?>
-					<?php if(is_array($TypeOne)): $i = 0; $__LIST__ = array_slice($TypeOne,0,1,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'],true); ?>
-					<div class="col-md-3 about-left">
-						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>
-						"><img style="width:250px;height:200px" src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /></a>
-						<center><h5><a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><?php echo ($vo["post_title"]); ?></a></h5></center>
-						<p><?php echo ($vo["post_excerpt"]); ?></p>
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
-					
 
+					<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
+		
+					<div class="col-md-3 about-left">
+						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>
+						"><img style="width:250px;height:200px" src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /></a>
+						<center><h5 style="font-size:16px"><a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><?php echo ($vo["post_title"]); ?></a></h5></center>
+					<!-- 	<p><?php echo ($vo["post_excerpt"]); ?></p> -->
+					</div><?php endforeach; endif; else: echo "" ;endif; ?>
 					<div class="clearfix"></div>
 				</div>
 			</div>
+
+
+
 		</div>
 	</div>
 	<!----about-end---->
 	<!--advantages-starts--> 
-	<div class="advantages">
+	<div class="advantages" style="margin-top:20px">
 		<div class="container">
 			<div class="col-md-6 advantages-left heading">
-				<h2>OUR 项目</h2>
+				<h2>我们的项目</h2>
 				<div class="advn-one">
 
 
-<?php
-$tag='cid:9;field:tid,post_title,post_excerpt;order:listorder asc'; $project=sp_sql_posts($tag); $i=1; ?>
+
 						<div class="ad-mian">
-						<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="ad-left">
+						<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="ad-left">
 								<p><?php echo $i; ?></p>
 							</div>
 							<div class="ad-right">
@@ -218,7 +196,7 @@ $tag='cid:9;field:tid,post_title,post_excerpt;order:listorder asc'; $project=sp_
 
 					</div>
 			</div>
-			<div class="col-md-6 advantages-left heading">
+			<!-- <div class="col-md-6 advantages-left heading">
 				<h3>OUR 优势</h3>
 			<div class="advn-two">
 						<h4>Erci eu tincidunt lacinia, elit quam ultri ces ipsum, quis ultricies ipsum ante</h4>
@@ -231,7 +209,7 @@ $tag='cid:9;field:tid,post_title,post_excerpt;order:listorder asc'; $project=sp_
 							<li><a href="#">Erci eu tincidunt lacinia</a></li>
 						</ul>
 			</div>
-			</div>
+			</div> -->
 			<div class="clearfix"></div>
 		</div>
 	</div>
@@ -275,23 +253,37 @@ $tag='cid:10;field:tid,post_title,post_source,smeta;order:listorder asc'; $teach
 
 <div class="container">
 			<div class="footer-top">
-				<div class="col-md-4 footer-left">
-					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				<div class="col-md-5 footer-left" >
+					<p style="font-size:15px">慧谦文化传播</p>
+					<br/>
+					<p style="font-size:13px">一家致力于学习,交流和传播中华传统文化的年轻企业,培养打造了一支热情积极,熟练干练的专业团队,聚集了众多内知名文化人士,努力打造精致的文化产品。</p>
+					<br/>
+					<p style="font-size:13px">电话：0769-22633863</p>
+					<p style="font-size:13px">邮箱: 865175936@qq.com</p>
+					<p style="font-size:13px">地址: 广东东莞市中国东莞留学人员创业园</p>
 				</div>
 				<div class="col-md-4 footer-left">
-					<h3>Follow Us</h3>
-					<ul>
+					<h3>慧谦服务</h3>
+					<!-- <ul>
 						<li><a href="#"><span class="fb"> </span></a></li>
 						<li><a href="#"><span class="twit"> </span></a></li>
 						<li><a href="#"><span class="google"> </span></a></li>
 						<li><a href="#"><span class="pin"> </span></a></li>
+					</ul> -->
+					<img style="width:110px;height:96px;float:left;margin-right:15px;" src="/thinkcmftigo/themes/maje/Public/images/logo-2.png" alt="">
+					<ul>
+		<?php
+$tag='cid:9;field:tid,post_title,post_keywords,post_excerpt,smeta;order:listorder asc'; $project=sp_sql_posts($tag); $i=1; ?>
+			<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a style="color:#fff;font-size:13px" href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><li><?php echo ($vo["post_title"]); ?></li>
+					</a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
-				<div class="col-md-4 footer-left">
-					<h3>Address</h3>
-					<p>The company name, 
-					<span>Lorem ipsum dolor,</span>
-					Glasglow Dr 40 Fe 72.</p>
+				<div class="col-md-3 footer-left">
+					<h3>公众号关注</h3>
+					<img style="width:100px;height:100px;float:left;margin-right:15px;" src="/thinkcmftigo/themes/maje/Public/images/qrcode_for_gh_7a493b385b46_258.jpg" alt="">
+					<p>关注慧谦文化公众号 
+					<span>及时获取企业相关动态</span>
+					</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

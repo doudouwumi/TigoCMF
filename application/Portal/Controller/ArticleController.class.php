@@ -61,12 +61,22 @@ class ArticleController extends HomebaseController {
 
 //获取最新评论
         $lastComments_model= M("comments");
-        $lastComments=$lastComments_model->where("status=1 AND post_id=$id")->order("createtime desc")->select();
-        // dump($lastComments);die();
+    
         $lastCommentsCount=$lastComments_model->where("status=1 AND post_id=$id")->count("id");
-       
-         $this->assign("lastCommentsCount",$lastCommentsCount);
 
+        $data['count'] = $lastCommentsCount;
+
+        $posts = M('posts');
+          
+       $posts->where("id=$id+1")->field('count')->data($data)->save();
+
+
+
+        $lastComments=$lastComments_model->where("status=1 AND post_id=$id")->order("createtime desc")->select();
+
+
+         $this->assign("lastCommentsCount",$lastCommentsCount);
+       
         $this->assign("lastComments",$lastComments);
         //
         

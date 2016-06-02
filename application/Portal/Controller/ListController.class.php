@@ -50,8 +50,6 @@ class ListController extends HomebaseController {
 	
         $this->assign("company_profile",$posts);
 
-//
-//
      //公司简介 4个文章
      $posts_4=$jianjielink->where("id>33 AND id<38")->order("id ASC")->select();
      $this->assign("posts_4",$posts_4);

@@ -26,15 +26,20 @@
 			<div class="blog-top">
 				<div class="col-md-9 blog-left">
 					<div class="blog-main">
-						<a href="single.html" class="bg">DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE</a>
-						<p>Post by <a href="javascript:void(0)">{$user_nicename}</a> on <php>echo date("l,M d,Y" ,strtotime($post_modified) );</php>  
-						<a href="javascript:void(0)">{$lastCommentsCount} comments</a></p>
+						<a href="single.html" class="bg">{$post_title}</a>
+
+
+
+
+
+						<p>发布: <a href="javascript:void(0)">{$user_nicename}</a> <php>echo date("Y-m-d h:m:s" ,strtotime($post_modified) );</php>  
+						<a href="javascript:void(0)">{$lastCommentsCount} 评论</a></p>
 
 						
 					</div>
 					<div class="blog-main-one">
 						<div class="blog-one">
-							<img src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" />
+							<!-- <img src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /> -->
 							<p>{$post_content}</p>
 						</div>	
 						<!-- <div class="blog-comments">
@@ -48,7 +53,8 @@
 					</div>
 					<div class="comments">
 						<div class="comments-top heading">
-							<h3>COMMENTS</h3>
+							<h3>评论</h3>
+								<php>print_r($aaaaaa);</php>
 						</div>
 						<div class="comments-bottom">
 							<div class="media">
@@ -64,8 +70,9 @@
 								<div class="media">
 									
 									<div class="media-body">
-										<h4 class="media-heading"><a href="javascript:void(0)">{$vo.full_name}</a></h4>
-										<p style="padding-left:5px ">{$vo.content}</p>
+										<h4 
+										class="media-heading"><a  href="javascript:void(0)">{$vo.full_name}</a><span style="position: absolute;color:#ccc;left:150px">{$vo.createtime}</span></h4>
+										<p style="padding-left:15px ;width:800px">{$vo.content}</p>
 									</div>
 									</div>
 								</volist>
@@ -75,7 +82,7 @@
 					</div>
 				</div>
 				<div class="related heading">
-							<h3>RELATED POSTS</h3>
+							<h3>相关文章</h3>
 
 
 
@@ -83,19 +90,19 @@
 <php>$hot_articles=sp_sql_posts("$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:post_hits desc;limit:4;"); </php>
 							<div class="related-bottom">
 							<foreach name="hot_articles" item="vo">   
-							<php>
+							<!-- <php>
 						    $smetaa=json_decode($vo['smeta'],true);/* 把smeta转化成数组 */
-						    </php>
-								<div class="col-md-3 related-left">
-									<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><img src="{:sp_get_asset_upload_path($smetaa['thumb'])}" alt="" /></a>
-									<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><h4>{$vo.post_title}</h4></a>
+						    </php> -->
+								<div class="col-md-10">
+								<!-- 	<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><img src="{:sp_get_asset_upload_path($smetaa['thumb'])}" alt="" /></a> -->
+									<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><h4 style="color:#97262a">{$vo.post_title}</h4></a>
 								</div>
 								 </foreach>
 								<div class="clearfix"></div>
 							</div>
 						</div>
 						<div class="reply heading">
-					 		<h3>LEAVE A COMMENT</h3>
+					 		<h3>评论留言</h3>
 
 
 
@@ -106,7 +113,7 @@
 									<input type="text" name="phone" placeholder="电话号码" required/>
 									<textarea name="content" placeholder="内容"></textarea>
 									<input type="hidden" name="post_id" value="<?php echo $_GET['id'];?>"/>
-									<input type="submit" value="POST"/>
+									<input type="submit" value="提交"/>
 				   				</form>
 				   			</div>	
 						</div>

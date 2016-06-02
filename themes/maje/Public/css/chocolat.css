@@ -28,13 +28,13 @@ body{
 }
 #Choco_left_arrow{
 	float:left;
-	background-image:url(../images/left.gif);
+	background-image:url(themes/maje/Public/images/left.gif);
 	background-position:12%;
 	left:-14%;
 }
 #Choco_right_arrow{
 	float:right;
-	background-image:url(../images/right.gif);
+	background-image:url(themes/maje/Public/images/right.gif);
 	background-position:88%;
 	left:14%;
 }

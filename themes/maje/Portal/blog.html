@@ -19,7 +19,7 @@
 	<div class="blog">
 		<div class="container">
 			<div class="blog-head heading">
-				<h1>BLOG</h1>
+				<h1>新闻中心</h1>
 			</div>	
 			<div class="blog-top">
 
@@ -31,15 +31,12 @@
 					</php>
 
 				<volist name="lists['posts']" id="vo">
-		<!-- 		<php>echo"<pre>";print_r($vo);echo"</pre>";
-				echo "<hr/>";
-				echo $vo[tid];
-				</php>
- -->				
+			
 					<div class="blog-main" >
 						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}" class="bg">{$vo.post_title}</a>
-						<p>Post by <a href="#">{$vo.user_nicename}</a> on <php>echo date("l,M d,Y" ,strtotime($vo[post_modified]));</php>  
-						<a href="javascript:void(0)">? comments</a></p>
+						<p>发布: <a href="#">{$vo.user_nicename}</a> &nbsp; <php>echo date("Y-m-d h:m:s" ,strtotime($vo[post_modified]));
+						</php>  
+						<a href="javascript:void(0)"> &nbsp;{$vo.count}条评论</a></p>
 					</div>
 					 <php>$smeta=json_decode($vo['smeta'], true);</php>
 					<div class="blog-main-one">
@@ -48,9 +45,13 @@
 								<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><img src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
 							</div>
 							<div class="col-md-7 blog-one-left">
-								<p>{$vo.post_excerpt}</p>
+							<p><?php 
+					$str =explode('$$$',$vo[post_excerpt]);
+					echo implode("<br/>",$str);
+					?>
+								</p>
 								<div class="b-btn">
-									<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">Read more</a>
+									<a style="font-size:14px" href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">查看</a>
 								</div>
 							</div>
 							<div class="clearfix"></div>

@@ -28,14 +28,14 @@
     		
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Majestic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="/thinkcmftigo/themes/maje/Public/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/thinkcmftigo/themes/maje/Public/css/style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.useso.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 <script src="/thinkcmftigo/themes/maje/Public/js/jquery-1.11.0.min.js"></script>
 <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/move-top.js"></script>
 <script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/easing.js"></script>
 <link rel="stylesheet" type="text/css" href="/thinkcmftigo/themes/maje/Public/css/common.css" />
@@ -49,6 +49,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 		</script>
+<style>*{font-family: 微软雅黑}</style>
 <!---- start-smoth-scrolling---->
 </head>
 <body>
@@ -140,19 +141,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="blog">
 		<div class="container">
 			<div class="blog-head heading">
-				<h1>BLOG</h1>
+				<h1>新闻中心</h1>
 			</div>	
 			<div class="blog-top">
 
 				<div class="col-md-10 blog-left">
 					<?php $pagetpl="{prev}{liststart}{list}{listend}{next}"; $lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;order:listorder desc;",3,$pagetpl); ?>
 
-				<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><!-- 		<?php echo"<pre>";print_r($vo);echo"</pre>"; echo "<hr/>"; echo $vo[tid]; ?>
- -->				
-					<div class="blog-main" >
+				<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="blog-main" >
 						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>" class="bg"><?php echo ($vo["post_title"]); ?></a>
-						<p>Post by <a href="#"><?php echo ($vo["user_nicename"]); ?></a> on <?php echo date("l,M d,Y" ,strtotime($vo[post_modified])); ?>  
-						<a href="javascript:void(0)">? comments</a></p>
+						<p>发布: <a href="#"><?php echo ($vo["user_nicename"]); ?></a> &nbsp; <?php echo date("Y-m-d h:m:s" ,strtotime($vo[post_modified])); ?>  
+						<a href="javascript:void(0)"> &nbsp;<?php echo ($vo["count"]); ?>条评论</a></p>
 					</div>
 					 <?php $smeta=json_decode($vo['smeta'], true); ?>
 					<div class="blog-main-one">
@@ -161,9 +160,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /></a>
 							</div>
 							<div class="col-md-7 blog-one-left">
-								<p><?php echo ($vo["post_excerpt"]); ?></p>
+							<p><?php  $str =explode('$$$',$vo[post_excerpt]); echo implode("<br/>",$str); ?>
+								</p>
 								<div class="b-btn">
-									<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>">Read more</a>
+									<a style="font-size:14px" href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>">查看</a>
 								</div>
 							</div>
 							<div class="clearfix"></div>
@@ -226,23 +226,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div class="container">
 			<div class="footer-top">
-				<div class="col-md-4 footer-left">
-					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				<div class="col-md-5 footer-left" >
+					<p style="font-size:15px">慧谦文化传播</p>
+					<br/>
+					<p style="font-size:13px">一家致力于学习,交流和传播中华传统文化的年轻企业,培养打造了一支热情积极,熟练干练的专业团队,聚集了众多内知名文化人士,努力打造精致的文化产品。</p>
+					<br/>
+					<p style="font-size:13px">电话：0769-22633863</p>
+					<p style="font-size:13px">邮箱: 865175936@qq.com</p>
+					<p style="font-size:13px">地址: 广东东莞市中国东莞留学人员创业园</p>
 				</div>
 				<div class="col-md-4 footer-left">
-					<h3>Follow Us</h3>
-					<ul>
+					<h3>慧谦服务</h3>
+					<!-- <ul>
 						<li><a href="#"><span class="fb"> </span></a></li>
 						<li><a href="#"><span class="twit"> </span></a></li>
 						<li><a href="#"><span class="google"> </span></a></li>
 						<li><a href="#"><span class="pin"> </span></a></li>
+					</ul> -->
+					<img style="width:110px;height:96px;float:left;margin-right:15px;" src="/thinkcmftigo/themes/maje/Public/images/logo-2.png" alt="">
+					<ul>
+		<?php
+$tag='cid:9;field:tid,post_title,post_keywords,post_excerpt,smeta;order:listorder asc'; $project=sp_sql_posts($tag); $i=1; ?>
+			<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a style="color:#fff;font-size:13px" href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><li><?php echo ($vo["post_title"]); ?></li>
+					</a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
-				<div class="col-md-4 footer-left">
-					<h3>Address</h3>
-					<p>The company name, 
-					<span>Lorem ipsum dolor,</span>
-					Glasglow Dr 40 Fe 72.</p>
+				<div class="col-md-3 footer-left">
+					<h3>公众号关注</h3>
+					<img style="width:100px;height:100px;float:left;margin-right:15px;" src="/thinkcmftigo/themes/maje/Public/images/qrcode_for_gh_7a493b385b46_258.jpg" alt="">
+					<p>关注慧谦文化公众号 
+					<span>及时获取企业相关动态</span>
+					</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

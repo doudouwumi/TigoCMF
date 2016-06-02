@@ -24,24 +24,24 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
-	<link rel="icon" href="/thinkcmftigo/themes/maje/Public/images/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="/thinkcmftigo/themes/maje/Public/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/ThinkCMFtigo/themes/maje/Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/ThinkCMFtigo/themes/maje/Public/images/favicon.ico" type="image/x-icon">
     		
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Majestic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="/thinkcmftigo/themes/maje/Public/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="/thinkcmftigo/themes/maje/Public/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/ThinkCMFtigo/themes/maje/Public/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="/ThinkCMFtigo/themes/maje/Public/css/style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.useso.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
-<script src="/thinkcmftigo/themes/maje/Public/js/jquery-1.11.0.min.js"></script>
+<script src="/ThinkCMFtigo/themes/maje/Public/js/jquery-1.11.0.min.js"></script>
 <!---- start-smoth-scrolling---->
-<script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/move-top.js"></script>
-<script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/easing.js"></script>
-<link rel="stylesheet" type="text/css" href="/thinkcmftigo/themes/maje/Public/css/common.css" />
-<link rel="stylesheet" type="text/css" href="/thinkcmftigo/themes/maje/Public/css/style4.css" />
-<script type="text/javascript" src="/thinkcmftigo/themes/maje/Public/js/modernizr.custom.79639.js"></script>
+<script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/move-top.js"></script>
+<script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/easing.js"></script>
+<link rel="stylesheet" type="text/css" href="/ThinkCMFtigo/themes/maje/Public/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/ThinkCMFtigo/themes/maje/Public/css/style4.css" />
+<script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/modernizr.custom.79639.js"></script>
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -64,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </a>
-       <a class="brand" href="/thinkcmftigo/"><img src="/thinkcmftigo/themes/maje/Public/images/logo.png"/></a>
+       <a class="brand" href="/ThinkCMFtigo/"><img src="/ThinkCMFtigo/themes/maje/Public/images/logo.png"/></a>
        <div class="nav-collapse collapse" id="main-menu">
        	<?php
  $effected_id="main-menu"; $filetpl="<a href='\$href' target='\$target'>\$label</a>"; $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="nav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<ul class="nav pull-right" id="main-menu-user">
 			<li class="dropdown user login">
 	            <a class="dropdown-toggle user" data-toggle="dropdown" href="#">
-	            <img src="/thinkcmftigo/themes/maje//Public/images/headicon.png" class="headicon"/>
+	            <img src="/ThinkCMFtigo/themes/maje//Public/images/headicon.png" class="headicon"/>
 	            <span class="user-nicename"></span><b class="caret"></b></a>
 	            <ul class="dropdown-menu pull-right">
 	               <li><a href="<?php echo U('user/center/index');?>"><i class="fa fa-user"></i> &nbsp;个人中心</a></li>
@@ -82,7 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           	</li>
           	<li class="dropdown user offline">
 	            <a class="dropdown-toggle user" data-toggle="dropdown" href="#">
-	           		<img src="/thinkcmftigo/themes/maje//Public/images/headicon.png" class="headicon"/>登录<b class="caret"></b>
+	           		<img src="/ThinkCMFtigo/themes/maje//Public/images/headicon.png" class="headicon"/>登录<b class="caret"></b>
 	            </a>
 	            <ul class="dropdown-menu pull-right">
 	               <li><a href="<?php echo U('api/oauth/login',array('type'=>'sina'));?>"><i class="fa fa-weibo"></i> &nbsp;微博登录</a></li>
@@ -107,7 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
  <div class="container">
 			<div class="logo">
-				<a href="index.html"><img src="/thinkcmftigo/themes/maje/Public/images/logo-2.png" alt=""></a>
+				<a href="index.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/logo-2.png" alt=""></a>
 			</div>
 			<div class="navigation" >
 			<?php  $id=$_REQUEST['id']; ?>
@@ -147,15 +147,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="blog-top">
 				<div class="col-md-9 blog-left">
 					<div class="blog-main">
-						<a href="single.html" class="bg">DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE</a>
-						<p>Post by <a href="javascript:void(0)"><?php echo ($user_nicename); ?></a> on <?php echo date("l,M d,Y" ,strtotime($post_modified) ); ?>  
-						<a href="javascript:void(0)"><?php echo ($lastCommentsCount); ?> comments</a></p>
+						<a href="single.html" class="bg"><?php echo ($post_title); ?></a>
+
+
+
+
+
+						<p>发布: <a href="javascript:void(0)"><?php echo ($user_nicename); ?></a> <?php echo date("Y-m-d h:m:s" ,strtotime($post_modified) ); ?>  
+						<a href="javascript:void(0)"><?php echo ($lastCommentsCount); ?> 评论</a></p>
 
 						
 					</div>
 					<div class="blog-main-one">
 						<div class="blog-one">
-							<img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" />
+							<!-- <img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" /> -->
 							<p><?php echo ($post_content); ?></p>
 						</div>	
 						<!-- <div class="blog-comments">
@@ -169,7 +174,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="comments">
 						<div class="comments-top heading">
-							<h3>COMMENTS</h3>
+							<h3>评论</h3>
+								<?php print_r($aaaaaa); ?>
 						</div>
 						<div class="comments-bottom">
 							<div class="media">
@@ -183,8 +189,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<?php if(is_array($lastComments)): $i = 0; $__LIST__ = array_slice($lastComments,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="media">
 									
 									<div class="media-body">
-										<h4 class="media-heading"><a href="javascript:void(0)"><?php echo ($vo["full_name"]); ?></a></h4>
-										<p style="padding-left:5px "><?php echo ($vo["content"]); ?></p>
+										<h4 
+										class="media-heading"><a  href="javascript:void(0)"><?php echo ($vo["full_name"]); ?></a><span style="position: absolute;color:#ccc;left:150px"><?php echo ($vo["createtime"]); ?></span></h4>
+										<p style="padding-left:15px ;width:800px"><?php echo ($vo["content"]); ?></p>
 									</div>
 									</div><?php endforeach; endif; else: echo "" ;endif; ?>
 
@@ -193,23 +200,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="related heading">
-							<h3>RELATED POSTS</h3>
+							<h3>相关文章</h3>
 
 
 
 
 <?php $hot_articles=sp_sql_posts("$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:post_hits desc;limit:4;"); ?>
 							<div class="related-bottom">
-							<?php if(is_array($hot_articles)): foreach($hot_articles as $key=>$vo): $smetaa=json_decode($vo['smeta'],true); ?>
-								<div class="col-md-3 related-left">
-									<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><img src="<?php echo sp_get_asset_upload_path($smetaa['thumb']);?>" alt="" /></a>
-									<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><h4><?php echo ($vo["post_title"]); ?></h4></a>
+							<?php if(is_array($hot_articles)): foreach($hot_articles as $key=>$vo): ?><!-- <?php $smetaa=json_decode($vo['smeta'],true); ?> -->
+								<div class="col-md-10">
+								<!-- 	<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><img src="<?php echo sp_get_asset_upload_path($smetaa['thumb']);?>" alt="" /></a> -->
+									<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><h4 style="color:#97262a"><?php echo ($vo["post_title"]); ?></h4></a>
 								</div><?php endforeach; endif; ?>
 								<div class="clearfix"></div>
 							</div>
 						</div>
 						<div class="reply heading">
-					 		<h3>LEAVE A COMMENT</h3>
+					 		<h3>评论留言</h3>
 
 
 
@@ -220,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<input type="text" name="phone" placeholder="电话号码" required/>
 									<textarea name="content" placeholder="内容"></textarea>
 									<input type="hidden" name="post_id" value="<?php echo $_GET['id'];?>"/>
-									<input type="submit" value="POST"/>
+									<input type="submit" value="提交"/>
 				   				</form>
 				   			</div>	
 						</div>
@@ -267,9 +274,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php echo hook('footer');?>
 
 <div class="container">
-			<div class="footer-top">
-				<div class="col-md-4 footer-left">
-					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+			<div class="footer-top" style="margin-top:-40px">
+				<div class="col-md-4 footer-left" >
+					<p>慧谦文化传播</p>
+					<br/>
+					<p>一家致力于学习,交流和传播中华传统文化的年轻企业,培养打造了一支热情积极,熟练干练的专业团队,聚集了众多内知名文化人士,努力打造精致的文化产品。</p>
+					<br/>
+					<p>电话：0769-22633863</p>
+					<p>邮箱: 865175936@qq.com</p>
+					<p>地址: 广东东莞市中国东莞留学人员创业园</p>
 				</div>
 				<div class="col-md-4 footer-left">
 					<h3>Follow Us</h3>
@@ -281,10 +294,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="col-md-4 footer-left">
-					<h3>Address</h3>
-					<p>The company name, 
-					<span>Lorem ipsum dolor,</span>
-					Glasglow Dr 40 Fe 72.</p>
+					<h3>公众号关注</h3>
+					<img style="width:100px;height:100px;float:left;margin-right:15px;" src="/ThinkCMFtigo/themes/maje/Public/images/qrcode_for_gh_7a493b385b46_258.jpg" alt="">
+					<p>关注慧谦文化公众号 
+					<span>及时获取企业相关动态</span>
+					</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

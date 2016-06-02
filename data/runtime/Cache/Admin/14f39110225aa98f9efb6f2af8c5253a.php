@@ -12,10 +12,10 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
 
-	<link href="/ThinkCMFtigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
-    <link href="/ThinkCMFtigo/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
-    <link href="/ThinkCMFtigo/public/js/artDialog/skins/default.css" rel="stylesheet" />
-    <link href="/ThinkCMFtigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<link href="/thinkcmftigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
+    <link href="/thinkcmftigo/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+    <link href="/thinkcmftigo/public/js/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="/thinkcmftigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
     <style>
 		.length_3{width: 180px;}
 		form .input-order{margin-bottom: 0px;padding:3px;width:40px;}
@@ -23,12 +23,12 @@
 		.table-list{margin-bottom: 0px;}
 	</style>
 	<!--[if IE 7]>
-	<link rel="stylesheet" href="/ThinkCMFtigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" href="/thinkcmftigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
 	<![endif]-->
 <script type="text/javascript">
 //全局变量
 var GV = {
-    DIMAUB: "/ThinkCMFtigo/",
+    DIMAUB: "/thinkcmftigo/",
     JS_ROOT: "public/js/",
     TOKEN: ""
 };
@@ -36,9 +36,9 @@ var GV = {
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/ThinkCMFtigo/public/js/jquery.js"></script>
-    <script src="/ThinkCMFtigo/public/js/wind.js"></script>
-    <script src="/ThinkCMFtigo/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/thinkcmftigo/public/js/jquery.js"></script>
+    <script src="/thinkcmftigo/public/js/wind.js"></script>
+    <script src="/thinkcmftigo/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
 <?php if(APP_DEBUG): ?><style>
 		#think_page_trace_open{
 			z-index:9999;
@@ -61,7 +61,7 @@ li {
 		<h4 class="well"><?php echo L('SYSTEM_NOTIFICATIONS');?></h4>
 		<div class="home_info">
 			<ul id="thinkcmf_notices">
-				<li><img src="/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/images/loading.gif"style="vertical-align: middle;" /><span style="display: inline-block; vertical-align: middle;">加载中...</span></li>
+				<li><img src="/thinkcmftigo/admin/themes/simplebootx/Public/assets/images/loading.gif"style="vertical-align: middle;" /><span style="display: inline-block; vertical-align: middle;">加载中...</span></li>
 			</ul>
 		</div>
 		<h4 class="well"><?php echo L('SYSTEM_INFORMATIONS');?></h4>
@@ -98,7 +98,7 @@ li {
 			</ul>
 		</div>
 	</div>
-	<script src="/ThinkCMFtigo/public/js/common.js"></script>
+	<script src="/thinkcmftigo/public/js/common.js"></script>
 	<script>
 		//获取官方通知
 		$.getJSON("http://www.tigonetwork.com/service/sms_jsonp.php?lang=<?php echo (LANG_SET); ?>&v=<?php echo (SIMPLEWIND_CMF_VERSION); ?>&callback=?",

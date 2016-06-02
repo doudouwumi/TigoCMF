@@ -26,14 +26,14 @@
     		
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Majestic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="/ThinkCMFtigo/themes/maje/Public/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/ThinkCMFtigo/themes/maje/Public/css/style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.useso.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 <script src="/ThinkCMFtigo/themes/maje/Public/js/jquery-1.11.0.min.js"></script>
 <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/move-top.js"></script>
 <script type="text/javascript" src="/ThinkCMFtigo/themes/maje/Public/js/easing.js"></script>
 <link rel="stylesheet" type="text/css" href="/ThinkCMFtigo/themes/maje/Public/css/common.css" />
@@ -47,6 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 		</script>
+<style>*{font-family: 微软雅黑}</style>
 
 
 <!---- start-smoth-scrolling---->
@@ -141,79 +142,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!----end-header---->
 	<!--banner-starts-->
-	<div class="banner" id="home">
-		<div class="container">
-			<section class="slider">
-                <div class="flexslider">
-                    
-				<!-- <?php  $page = ceil($projectCount/2); echo $page; ?> -->
-						<ul class="slides">
-						<li>
-							<div class="banner-top">
-							<div class="col-md-6 banner-left">
-							<div class="bnr-one">
-								<img src="/ThinkCMFtigo/themes/maje/Public/images/b-2.jpg" alt="" />
-								<h3>Donec interdum</h3>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 banner-left">
-							<div class="bnr-one">
-								<img src="/ThinkCMFtigo/themes/maje/Public/images/b-1.jpg" alt="" />
-								<h3>Aliquam bibendum</h3>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-						
-						<div class="clearfix"></div>
-					</div>
-				</li>
-				<li>
-					<div class="banner-top">
-						<div class="col-md-6 banner-left">
-							<div class="bnr-one">
-								<img src="/ThinkCMFtigo/themes/maje/Public/images/b-2.jpg" alt="" />
-								<h3>Aliquam bibendum</h3>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 banner-left">
-							<div class="bnr-one">
-								<img src="/ThinkCMFtigo/themes/maje/Public/images/b-3.jpg" alt="" />
-								<h3>Quisque pharetra</h3>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-						
-						<div class="clearfix"></div>
-					</div>
-				</li>
-				<li>
-					<div class="banner-top">
-						<div class="col-md-6 banner-left">
-							<div class="bnr-one">
-								<img src="/ThinkCMFtigo/themes/maje/Public/images/b-1.jpg" alt="" />
-								<h3>Quisque pharetra</h3>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 banner-left">
-							<div class="bnr-one">
-								<img src="/ThinkCMFtigo/themes/maje/Public/images/b-2.jpg" alt="" />
-								<h3>Donec interdum</h3>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-						
-						<div class="clearfix"></div>
-					</div>
-				</li>
-          </ul>
-        </div>
-      </section>
-		</div>
+			<?php $home_slides=sp_getslide("portal_index"); ?>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+   <?php if(is_array($home_slides)): foreach($home_slides as $k=>$vo): ?><li data-target="#carousel-example-generic" data-slide-to="<?php echo ($k); ?>" class="<?php if($k==0){echo "active";}?>"></li><?php endforeach; endif; ?> 
+  </ol>
 
-	</div>
+  <!-- Wrapper for slides -->
+ 
+
+  <div class="carousel-inner">
+
+
+ <?php if(is_array($home_slides)): foreach($home_slides as $k=>$vo): ?><div class="<?php if($k==0){echo "item active";}else{echo "item";}?>">
+      <img src="<?php echo sp_get_asset_upload_path($vo['slide_pic']);?>" alt="">
+ 
+    </div><?php endforeach; endif; ?> 
+
+
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+
 	<!--banner-ends--> 
 	<!--FlexSlider-->
 
@@ -234,84 +193,64 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </script>
 </div>
 			<!--End-slider-script-->
-            <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >免费网站模板</a></div>
-	<!--welcome-starts--> 
-	<div class="welcome">
+    
 		<div class="container">
 			<div class="welcome-top">
-				<h1>WELCOME TO OUR SITE</h1>
-				<p> Maecenas ornare lobortis mi id dapibus. Sed magna leo, malesuada in luctus ut, convallis nec sapien. Nulla rhoncus, nunc sollicitudin sodales elementum, augue nunc congue tellus, a varius urna odio vitae mauris. Aenean ultricies porttitor dui quis laoreet.</p>
+				<h1>慧谦文化</h1>
+				<p> 一家致力于学习，交流和传播中华传统文化的年轻企业<br/>热情积极，成熟干练的专业团队<br/>聚集了众多业内知名的文化人士，努力打造精致的文化产品</p>
 			</div>
 			<div class="welcome-bottom">
 				<div class="col-md-6 welcome-left">
-					<h3>Aenean ultricies porttitor</h3>
-					<p>Integer tincidunt ligula id lacinia placerat. Etiam rutrum fermentum tortor. Nunc tempor dui nec tincidunt eleifend. Phasellus lacinia gravida mollis. Curabitur laoreet ligula tempus, elementum dui quis, malesuada velit. Nullam cursus a magna vitae vestibulum.</p>
+					<h3>国学经典</h3>
+					<p>古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</p>
 					<div class="welcome-one">
 						<div class="col-md-6 welcome-one-left">
-							<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/w-6.jpg" alt="" /></a>
+							<a href="javascript:void(0)"><img src="/ThinkCMFtigo/themes/maje/Public/images/1.jpg" alt="" /></a>
 						</div>
 						<div class="col-md-6 welcome-one-right">
-							<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/w-4.jpg" alt="" /></a>
-							<a href="single.html" class="one-top"><img src="/ThinkCMFtigo/themes/maje/Public/images/w-5.jpg" alt="" /></a>
+							<a href="javascript:void(0)"><img src="/ThinkCMFtigo/themes/maje/Public/images/2.jpg" alt="" /></a>
+							<a href="javascript:void(0)" class="one-top"><img src="/ThinkCMFtigo/themes/maje/Public/images/3.jpg" alt="" /></a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
 				<div class="col-md-6 welcome-left">
-					<h3>Nullam mattis nibh dolor</h3>
-					<p>Integer tincidunt ligula id lacinia placerat. Etiam rutrum fermentum tortor. Nunc tempor dui nec tincidunt eleifend. Phasellus lacinia gravida mollis. Curabitur laoreet ligula tempus, elementum dui quis, malesuada velit. Nullam cursus a magna vitae vestibulum.</p>
+					<h3>人生•智慧</h3>
+					<p>我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的。</p>
 					<div class="welcome-one">
-						<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/w-2.jpg" alt="" /></a>
+						<a href="javascript:void(0)"><img src="/ThinkCMFtigo/themes/maje/Public/images/4.jpg" alt="" /></a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
-	</div>
+
 	<!--welcome-ends--> 
 	<!--offer-starts-->
 	<div class="offer">
 		<div class="container">
 			<div class="offer-top heading">
-				<h2>OUR BEST OFFERS</h2>
+				<h2>慧谦服务</h2>
 			</div>
 			<div class="offer-bottom">
+			
+			
+  					
+		<?php
+$tag='cid:9;field:tid,post_title,post_keywords,post_excerpt,smeta;order:listorder asc'; $project=sp_sql_posts($tag); $i=1; ?>
+
+			<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
 				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/o-1.jpg" alt="" />
-					<h6>$29</h6></a>
-					<h4><a href="single.html">Quisque sed neque</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
+					<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" alt="" />
+					<!-- <h6>$29</h6> --></a>
+					<h4 style="font-size:16px;"><a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><?php echo ($vo["post_title"]); ?></a></h4>
+					<p style="font-size:13px">
+					<?php  $str =explode('$$$',$vo[post_keywords]); echo implode("<br/>",$str); ?>
+					</p>
 					<div class="o-btn">
-						<a href="single.html">Read More</a>
+						<a href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>">了解</a>
 					</div>
-				</div>
-				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/o-2.jpg" alt="" />
-					<h6>$70</h6></a>
-					<h4><a href="single.html">Donec mattis nunc</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
-					<div class="o-btn">
-						<a href="single.html">Read More</a>
-					</div>
-				</div>
-				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/o-3.jpg" alt="" />
-					<h6>$46</h6></a>
-					<h4><a href="single.html">Maecenas non risus</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
-					<div class="o-btn">
-						<a href="single.html">Read More</a>
-					</div>
-				</div>
-				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="/ThinkCMFtigo/themes/maje/Public/images/o-5.jpg" alt="" />
-					<h6>$80</h6></a>
-					<h4><a href="single.html">Nullam vitae nisl</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
-					<div class="o-btn">
-						<a href="single.html">Read More</a>
-					</div>
-				</div>
+				</div><?php endforeach; endif; else: echo "" ;endif; ?>
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -358,23 +297,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div class="container">
 			<div class="footer-top">
-				<div class="col-md-4 footer-left">
-					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				<div class="col-md-5 footer-left" >
+					<p style="font-size:15px">慧谦文化传播</p>
+					<br/>
+					<p style="font-size:13px">一家致力于学习,交流和传播中华传统文化的年轻企业,培养打造了一支热情积极,熟练干练的专业团队,聚集了众多内知名文化人士,努力打造精致的文化产品。</p>
+					<br/>
+					<p style="font-size:13px">电话：0769-22633863</p>
+					<p style="font-size:13px">邮箱: 865175936@qq.com</p>
+					<p style="font-size:13px">地址: 广东东莞市中国东莞留学人员创业园</p>
 				</div>
 				<div class="col-md-4 footer-left">
-					<h3>Follow Us</h3>
-					<ul>
+					<h3>慧谦服务</h3>
+					<!-- <ul>
 						<li><a href="#"><span class="fb"> </span></a></li>
 						<li><a href="#"><span class="twit"> </span></a></li>
 						<li><a href="#"><span class="google"> </span></a></li>
 						<li><a href="#"><span class="pin"> </span></a></li>
+					</ul> -->
+					<img style="width:110px;height:96px;float:left;margin-right:15px;" src="/ThinkCMFtigo/themes/maje/Public/images/logo-2.png" alt="">
+					<ul>
+		<?php
+$tag='cid:9;field:tid,post_title,post_keywords,post_excerpt,smeta;order:listorder asc'; $project=sp_sql_posts($tag); $i=1; ?>
+			<?php if(is_array($project)): $i = 0; $__LIST__ = array_slice($project,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a style="color:#fff;font-size:13px" href="<?php echo U('portal/article/index',array('id'=>"$vo[tid]"));?>"><li><?php echo ($vo["post_title"]); ?></li>
+					</a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
-				<div class="col-md-4 footer-left">
-					<h3>Address</h3>
-					<p>The company name, 
-					<span>Lorem ipsum dolor,</span>
-					Glasglow Dr 40 Fe 72.</p>
+				<div class="col-md-3 footer-left">
+					<h3>公众号关注</h3>
+					<img style="width:100px;height:100px;float:left;margin-right:15px;" src="/ThinkCMFtigo/themes/maje/Public/images/qrcode_for_gh_7a493b385b46_258.jpg" alt="">
+					<p>关注慧谦文化公众号 
+					<span>及时获取企业相关动态</span>
+					</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

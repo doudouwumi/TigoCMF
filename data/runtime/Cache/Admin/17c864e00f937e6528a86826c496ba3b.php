@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
 		<meta name="renderer" content="webkit|ie-comp|ie-stand">
 		<meta name="robots" content="noindex,nofollow">
-		<link href="/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/css/admin_login.css" rel="stylesheet" />
+		<link href="/thinkcmftigo/admin/themes/simplebootx/Public/assets/css/admin_login.css" rel="stylesheet" />
 		<style>
 			#login_btn_wraper{
 				text-align: center;
@@ -32,7 +32,7 @@
 	</head>
 <body>
 	<div class="wrap">
-		<h1><a href="/ThinkCMFtigo">TIGO <?php echo L('ADMIN_CENTER');?></a></h1>
+		<h1><a href="/thinkcmftigo">TIGO <?php echo L('ADMIN_CENTER');?></a></h1>
 		<form method="post" name="login" action="<?php echo U('public/dologin');?>" autoComplete="off" class="js-ajax-form">
 			<div class="login">
 				<ul>
@@ -59,13 +59,13 @@
 <script>
 var GV = {
 	DIMAUB: "",
-	JS_ROOT: "/ThinkCMFtigo/public/js/",//js版本号
+	JS_ROOT: "/thinkcmftigo/public/js/",//js版本号
 	TOKEN : ''	//token ajax全局
 };
 </script>
-<script src="/ThinkCMFtigo/public/js/wind.js"></script>
-<script src="/ThinkCMFtigo/public/js/jquery.js"></script>
-<script type="text/javascript" src="/ThinkCMFtigo/public/js/common.js"></script>
+<script src="/thinkcmftigo/public/js/wind.js"></script>
+<script src="/thinkcmftigo/public/js/jquery.js"></script>
+<script type="text/javascript" src="/thinkcmftigo/public/js/common.js"></script>
 <script>
 ;(function(){
 	document.getElementById('js-admin-name').focus();

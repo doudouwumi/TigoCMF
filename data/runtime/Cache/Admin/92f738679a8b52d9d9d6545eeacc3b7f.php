@@ -10,15 +10,15 @@
 <meta name="description" content="This is page-header (.page-header &gt; h1)">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="/ThinkCMFtigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
-<link href="/ThinkCMFtigo/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
-<link href="/ThinkCMFtigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+<link href="/thinkcmftigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
+<link href="/thinkcmftigo/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+<link href="/thinkcmftigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
 <!--[if IE 7]>
-	<link rel="stylesheet" href="/ThinkCMFtigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" href="/thinkcmftigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
 <![endif]-->
-<link rel="stylesheet" href="/ThinkCMFtigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/simplebootadminindex.min.css?">
+<link rel="stylesheet" href="/thinkcmftigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/simplebootadminindex.min.css?">
 <!--[if lte IE 8]>
-	<link rel="stylesheet" href="/ThinkCMFtigo/public/simpleboot/css/simplebootadminindex-ie.css?" />
+	<link rel="stylesheet" href="/thinkcmftigo/public/simpleboot/css/simplebootadminindex-ie.css?" />
 <![endif]-->
 <style>
 .navbar .nav_shortcuts .btn{margin-top: 5px;}
@@ -40,7 +40,7 @@
 var GV = {
 	HOST:"<?php echo ($_SERVER['HTTP_HOST']); ?>",
     DIMAUB: "",
-    JS_ROOT: "/ThinkCMFtigo/public/js/",
+    JS_ROOT: "/thinkcmftigo/public/js/",
     TOKEN: ""
 };
 </script>
@@ -142,13 +142,13 @@ right: initial !important;}
 		<div class="navbar-inner">
 			<div class="container-fluid">
 				<a href="<?php echo U('index/index');?>" class="brand"> <small> 
-				<img src="/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/images/logo-18.png">
+				<img src="/thinkcmftigo/admin/themes/simplebootx/Public/assets/images/logo-18.png">
 						TIGO <?php echo L('ADMIN_CENTER');?>
 				</small>
 				</a>
 				<div class="pull-left nav_shortcuts" >
 					
-					<a class="btn btn-small btn-warning" href="/ThinkCMFtigo/" title="<?php echo L('WEBSITE_HOME_PAGE');?>" target="_blank">
+					<a class="btn btn-small btn-warning" href="/thinkcmftigo/" title="<?php echo L('WEBSITE_HOME_PAGE');?>" target="_blank">
 						<i class="fa fa-home"></i>
 					</a>
 					
@@ -169,7 +169,7 @@ right: initial !important;}
 						<a data-toggle="dropdown" href="#" class="dropdown-toggle">
     						<?php if($admin['avatar']): ?><img class="nav-user-photo" width="30" height="30" src="<?php echo sp_get_user_avatar_url($admin['avatar']);?>" alt="<?php echo ($admin["user_login"]); ?>">
 							<?php else: ?>
-								<img class="nav-user-photo" width="30" height="30" src="/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/images/logo-18.png" alt="<?php echo ($admin["user_login"]); ?>"><?php endif; ?>
+								<img class="nav-user-photo" width="30" height="30" src="/thinkcmftigo/admin/themes/simplebootx/Public/assets/images/logo-18.png" alt="<?php echo ($admin["user_login"]); ?>"><?php endif; ?>
 							<span class="user-info">
 								<?php echo L('WELCOME_USER',array('username'=>empty($admin['user_nicename'])?$admin['user_login']:$admin['user_nicename']));?>
 							</span>
@@ -219,8 +219,8 @@ right: initial !important;}
 		</div>
 	</div>
 	
-	<script src="/ThinkCMFtigo/public/js/jquery.js"></script>
-	<script src="/ThinkCMFtigo/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/thinkcmftigo/public/js/jquery.js"></script>
+	<script src="/thinkcmftigo/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
 	<script>
 	var ismenumin = $("#sidebar").hasClass("menu-min");
 	$(".nav-list").on( "click",function(event) {
@@ -256,6 +256,6 @@ right: initial !important;}
 		return false;
 	});
 	</script>
-	<script src="/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/js/index.js"></script>
+	<script src="/thinkcmftigo/admin/themes/simplebootx/Public/assets/js/index.js"></script>
 </body>
 </html>

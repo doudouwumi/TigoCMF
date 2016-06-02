@@ -1,12 +1,12 @@
 <div class="container">
 			<div class="about-top heading">
-				<h1>公司介绍</h1>
-				<h4>Cum sociis natoque penatibus et magnis dis parturient montes , nascetur ridiculus mus.</h4>
-				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et dignissim augue, et sagittis turpis. Vestibulum congue turpis ac tincidunt accumsan. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orc i ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. </p>
+				<h1>关于慧谦</h1>
+				<h4>慧谦文化传播有限公司简介</h4>
+				<p>慧谦文化传播有限公司成立于2013年，位于广东省东莞市，是一家致力于学习，交流和传播中华传统文化的年轻企业。朝气与活力是公司的名片，创新与进取则是公司的灵魂。长期以来，公司培养打造了一支热情积极，成熟干练的专业团队，聚集了众多业内知名的文化人士，努力打造精致的文化产品，涉及学龄前培训，传统文化教育，培训以及咨询服务，传统中医学的养生保健服务，中华传统文化对外交流等。</p>
 				<div class="about-bottom">
 					
 					<!-- one -->
-					<php>
+					<!-- <php>
 					$TypeOne=sp_sql_posts('cid:11;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
 					</php>
 					<volist name="TypeOne" id="vo" offset="0" length="1">
@@ -16,12 +16,12 @@
 					<div class="col-md-3 about-left">
 						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
 						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
-						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
-						<p>{$vo.post_excerpt}</p>
-					</div>
-					</volist>
+						<center><h5 style="font-size:16px"><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center> -->
+					<!-- 	<p>{$vo.post_excerpt}</p> -->
+				<!-- 	</div>
+					</volist> -->
 					<!-- two -->
-					<php>
+				<!-- 	<php>
 					$TypeOne=sp_sql_posts('cid:12;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
 					</php>
 					<volist name="TypeOne" id="vo" offset="0" length="1">
@@ -31,12 +31,12 @@
 					<div class="col-md-3 about-left">
 						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
 						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
-						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
-						<p>{$vo.post_excerpt}</p>
-					</div>
-					</volist>
+						<center><h5 style="font-size:16px"><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center> -->
+						<!-- <p>{$vo.post_excerpt}</p> -->
+				<!-- 	</div>
+					</volist> -->
 					<!-- three -->
-					<php>
+				<!-- 	<php>
 					$TypeOne=sp_sql_posts('cid:13;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
 					</php>
 					<volist name="TypeOne" id="vo" offset="0" length="1">
@@ -46,11 +46,11 @@
 					<div class="col-md-3 about-left">
 						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
 						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
-						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
-						<p>{$vo.post_excerpt}</p>
-					</div>
-					</volist>
-					<!-- four --><php>
+						<center><h5 style="font-size:16px"><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center> -->
+						<!-- <p>{$vo.post_excerpt}</p> -->
+					<!-- </div>
+					</volist> -->
+					<!-- four --><!-- <php>
 					$TypeOne=sp_sql_posts('cid:14;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
 					</php>
 					<volist name="TypeOne" id="vo" offset="0" length="1">
@@ -60,11 +60,35 @@
 					<div class="col-md-3 about-left">
 						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
 						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
-						<center><h5><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
-						<p>{$vo.post_excerpt}</p>
+						<center><h5 style="font-size:16px"><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center> -->
+						<!-- <p>{$vo.post_excerpt}</p> -->
+					<!-- </div>
+					</volist> -->
+					
+
+
+				
+
+
+					<php>
+					$TypeOne=sp_sql_posts('cid:9;field:post_title,smeta,tid,post_excerpt;order:listorder asc');
+    				</php>
+
+					<volist name="TypeOne" id="vo" offset="0" length='4'>
+					 <php>
+  					/*处理smeta*/
+  					$smeta=json_decode($smeta,true);/*把smeta转化成数组*/
+					</php>
+					<div class="col-md-3 about-left">
+						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}
+						"><img style="width:250px;height:200px" src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" /></a>
+						<center><h5 style="font-size:16px"><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h5></center>
+					<!-- 	<p>{$vo.post_excerpt}</p> -->
 					</div>
 					</volist>
-					
+
+
+
 
 					<div class="clearfix"></div>
 				</div>

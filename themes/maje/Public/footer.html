@@ -3,23 +3,42 @@
 
 <div class="container">
 			<div class="footer-top">
-				<div class="col-md-4 footer-left">
-					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				<div class="col-md-5 footer-left" >
+					<p style="font-size:15px">慧谦文化传播</p>
+					<br/>
+					<p style="font-size:13px">一家致力于学习,交流和传播中华传统文化的年轻企业,培养打造了一支热情积极,熟练干练的专业团队,聚集了众多内知名文化人士,努力打造精致的文化产品。</p>
+					<br/>
+					<p style="font-size:13px">电话：0769-22633863</p>
+					<p style="font-size:13px">邮箱: 865175936@qq.com</p>
+					<p style="font-size:13px">地址: 广东东莞市中国东莞留学人员创业园</p>
 				</div>
 				<div class="col-md-4 footer-left">
-					<h3>Follow Us</h3>
-					<ul>
+					<h3>慧谦服务</h3>
+					<!-- <ul>
 						<li><a href="#"><span class="fb"> </span></a></li>
 						<li><a href="#"><span class="twit"> </span></a></li>
 						<li><a href="#"><span class="google"> </span></a></li>
 						<li><a href="#"><span class="pin"> </span></a></li>
+					</ul> -->
+					<img style="width:110px;height:96px;float:left;margin-right:15px;" src="__TMPL__Public/images/logo-2.png" alt="">
+					<ul>
+		<?php
+$tag='cid:9;field:tid,post_title,post_keywords,post_excerpt,smeta;order:listorder asc';
+$project=sp_sql_posts($tag); 
+$i=1;
+?>
+			<volist name="project" id="vo" offset="0" length='4'>
+					<a style="color:#fff;font-size:13px" href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><li>{$vo.post_title}</li>
+					</a>
+			</volist>
 					</ul>
 				</div>
-				<div class="col-md-4 footer-left">
-					<h3>Address</h3>
-					<p>The company name, 
-					<span>Lorem ipsum dolor,</span>
-					Glasglow Dr 40 Fe 72.</p>
+				<div class="col-md-3 footer-left">
+					<h3>公众号关注</h3>
+					<img style="width:100px;height:100px;float:left;margin-right:15px;" src="__TMPL__Public/images/qrcode_for_gh_7a493b385b46_258.jpg" alt="">
+					<p>关注慧谦文化公众号 
+					<span>及时获取企业相关动态</span>
+					</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

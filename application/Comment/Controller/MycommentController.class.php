@@ -41,10 +41,11 @@ class MycommentController extends HomebaseController{
 			// }
 			$name = $_POST['full_name'];
 			$email = $_POST['email'];
+			$phone = $_POST['phone'];
 			$subject = $_POST['subject'];
 			$content = $_POST['content'];
 			//校验数据
-			if($name=="Name" || $email=="Email" || $subject=="Subject" || $content=="Message" ){
+			if($name=="Name" || $email=="Email" || $subject=="Subject" || $content=="Message" || $phone=="phone" ){
 				$this->error("请填写完整的信息");
 			}
 			if(!filter_var($email, FILTER_VALIDATE_EMAIL)){

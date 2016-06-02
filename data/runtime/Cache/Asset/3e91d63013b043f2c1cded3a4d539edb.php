@@ -12,10 +12,10 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
 
-	<link href="/ThinkCMFtigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
-    <link href="/ThinkCMFtigo/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
-    <link href="/ThinkCMFtigo/public/js/artDialog/skins/default.css" rel="stylesheet" />
-    <link href="/ThinkCMFtigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<link href="/thinkcmftigo/public/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
+    <link href="/thinkcmftigo/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+    <link href="/thinkcmftigo/public/js/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="/thinkcmftigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
     <style>
 		.length_3{width: 180px;}
 		form .input-order{margin-bottom: 0px;padding:3px;width:40px;}
@@ -23,12 +23,12 @@
 		.table-list{margin-bottom: 0px;}
 	</style>
 	<!--[if IE 7]>
-	<link rel="stylesheet" href="/ThinkCMFtigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" href="/thinkcmftigo/public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
 	<![endif]-->
 <script type="text/javascript">
 //全局变量
 var GV = {
-    DIMAUB: "/ThinkCMFtigo/",
+    DIMAUB: "/thinkcmftigo/",
     JS_ROOT: "public/js/",
     TOKEN: ""
 };
@@ -36,9 +36,9 @@ var GV = {
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/ThinkCMFtigo/public/js/jquery.js"></script>
-    <script src="/ThinkCMFtigo/public/js/wind.js"></script>
-    <script src="/ThinkCMFtigo/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/thinkcmftigo/public/js/jquery.js"></script>
+    <script src="/thinkcmftigo/public/js/wind.js"></script>
+    <script src="/thinkcmftigo/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
 <?php if(APP_DEBUG): ?><style>
 		#think_page_trace_open{
 			z-index:9999;
@@ -127,7 +127,7 @@ var GV = {
     text-align: center;
 }
 .eidt_uphoto .no {
-    background: url("/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/images/upload_pic.jpg") no-repeat scroll center center #FBFBFB;
+    background: url("/thinkcmftigo/admin/themes/simplebootx/Public/assets/images/upload_pic.jpg") no-repeat scroll center center #FBFBFB;
     border: 1px solid #CCCCCC;
     height: 98px;
     overflow: hidden;
@@ -180,7 +180,7 @@ var GV = {
 	position:absolute;
 	width:15px;
 	height:15px;
-	background:url("/ThinkCMFtigo/admin/themes/simplebootx/Public/assets/images/upload_del.png") no-repeat;
+	background:url("/thinkcmftigo/admin/themes/simplebootx/Public/assets/images/upload_del.png") no-repeat;
 	right:1px;
 	top:1px;
 	overflow:hidden;
@@ -223,13 +223,13 @@ var GV = {
 }
 /*上传选择按钮*/
 #btupload,.addnew{
-	background: url("/ThinkCMFtigo/public/js/swfupload/images/swfBnt.png") no-repeat; float:left; margin-right:10px;width:75px; height:28px; line-height:28px;font-weight:700; color:#fff;
+	background: url("/thinkcmftigo/public/js/swfupload/images/swfBnt.png") no-repeat; float:left; margin-right:10px;width:75px; height:28px; line-height:28px;font-weight:700; color:#fff;
 }
 #btupload{ 
     vertical-align:middle;border:none;cursor: hand;!important;cursor: pointer;
 }
 .addnew{
-	background: url("/ThinkCMFtigo/public/js/swfupload/images/swfBnt.png") no-repeat; float:left; margin-right:10px;width:75px; height:28px; line-height:28px;font-weight:700; color:#fff;
+	background: url("/thinkcmftigo/public/js/swfupload/images/swfBnt.png") no-repeat; float:left; margin-right:10px;width:75px; height:28px; line-height:28px;font-weight:700; color:#fff;
 }
 .addnew{
 	background-position: left bottom;
@@ -292,7 +292,7 @@ var swfu = '';
 	$(document).ready(function(){
 		Wind.use("swfupload",GV.DIMAUB+"public/js/swfupload/handlers.js",function(){
 		      swfu = new SWFUpload({
-			flash_url:"/ThinkCMFtigo/public/js/swfupload/swfupload.swf",
+			flash_url:"/thinkcmftigo/public/js/swfupload/swfupload.swf",
 			upload_url:"<?php echo U('asset/swfupload');?>",
 			file_post_name : "Filedata",
 			post_params:{
@@ -363,7 +363,7 @@ var swfu = '';
 <div id="att-status" style="display:none"></div>
 <div id="att-status-del" style="display:none"></div>
 <div id="att-name" style="display:none"></div>
-<script src="/ThinkCMFtigo/public/js/common.js"></script> 
+<script src="/thinkcmftigo/public/js/common.js"></script> 
 <script>
 $(function(){
     $("#att-status").html("");

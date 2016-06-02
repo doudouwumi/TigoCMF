@@ -20,9 +20,7 @@
 
 	<!----end-header---->
 	<!--banner-starts-->
-	<div class="banner" id="home">
-		<tc_include file="Public:banner" />
-	</div>
+	<tc_include file="Public:banner" />
 	<!--banner-ends--> 
 	<!--FlexSlider-->
 
@@ -43,84 +41,72 @@
   </script>
 </div>
 			<!--End-slider-script-->
-            <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >免费网站模板</a></div>
-	<!--welcome-starts--> 
-	<div class="welcome">
+    
 		<div class="container">
 			<div class="welcome-top">
-				<h1>WELCOME TO OUR SITE</h1>
-				<p> Maecenas ornare lobortis mi id dapibus. Sed magna leo, malesuada in luctus ut, convallis nec sapien. Nulla rhoncus, nunc sollicitudin sodales elementum, augue nunc congue tellus, a varius urna odio vitae mauris. Aenean ultricies porttitor dui quis laoreet.</p>
+				<h1>慧谦文化</h1>
+				<p> 一家致力于学习，交流和传播中华传统文化的年轻企业<br/>热情积极，成熟干练的专业团队<br/>聚集了众多业内知名的文化人士，努力打造精致的文化产品</p>
 			</div>
 			<div class="welcome-bottom">
 				<div class="col-md-6 welcome-left">
-					<h3>Aenean ultricies porttitor</h3>
-					<p>Integer tincidunt ligula id lacinia placerat. Etiam rutrum fermentum tortor. Nunc tempor dui nec tincidunt eleifend. Phasellus lacinia gravida mollis. Curabitur laoreet ligula tempus, elementum dui quis, malesuada velit. Nullam cursus a magna vitae vestibulum.</p>
+					<h3>国学经典</h3>
+					<p>古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</p>
 					<div class="welcome-one">
 						<div class="col-md-6 welcome-one-left">
-							<a href="single.html"><img src="__TMPL__Public/images/w-6.jpg" alt="" /></a>
+							<a href="javascript:void(0)"><img src="__TMPL__Public/images/1.jpg" alt="" /></a>
 						</div>
 						<div class="col-md-6 welcome-one-right">
-							<a href="single.html"><img src="__TMPL__Public/images/w-4.jpg" alt="" /></a>
-							<a href="single.html" class="one-top"><img src="__TMPL__Public/images/w-5.jpg" alt="" /></a>
+							<a href="javascript:void(0)"><img src="__TMPL__Public/images/2.jpg" alt="" /></a>
+							<a href="javascript:void(0)" class="one-top"><img src="__TMPL__Public/images/3.jpg" alt="" /></a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
 				<div class="col-md-6 welcome-left">
-					<h3>Nullam mattis nibh dolor</h3>
-					<p>Integer tincidunt ligula id lacinia placerat. Etiam rutrum fermentum tortor. Nunc tempor dui nec tincidunt eleifend. Phasellus lacinia gravida mollis. Curabitur laoreet ligula tempus, elementum dui quis, malesuada velit. Nullam cursus a magna vitae vestibulum.</p>
+					<h3>人生•智慧</h3>
+					<p>我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的。</p>
 					<div class="welcome-one">
-						<a href="single.html"><img src="__TMPL__Public/images/w-2.jpg" alt="" /></a>
+						<a href="javascript:void(0)"><img src="__TMPL__Public/images/4.jpg" alt="" /></a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
-	</div>
+
 	<!--welcome-ends--> 
 	<!--offer-starts-->
 	<div class="offer">
 		<div class="container">
 			<div class="offer-top heading">
-				<h2>OUR BEST OFFERS</h2>
+				<h2>慧谦服务</h2>
 			</div>
 			<div class="offer-bottom">
+			
+			
+  					
+		<?php
+$tag='cid:9;field:tid,post_title,post_keywords,post_excerpt,smeta;order:listorder asc';
+$project=sp_sql_posts($tag); 
+$i=1;
+?>
+
+			<volist name="project" id="vo" offset="0" length='4'>
+			<php>$smeta=json_decode($vo['smeta'], true);</php>
 				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="__TMPL__Public/images/o-1.jpg" alt="" />
-					<h6>$29</h6></a>
-					<h4><a href="single.html">Quisque sed neque</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
+					<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}"><img src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="" />
+					<!-- <h6>$29</h6> --></a>
+					<h4 style="font-size:16px;"><a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">{$vo.post_title}</a></h4>
+					<p style="font-size:13px">
+					<?php 
+					$str =explode('$$$',$vo[post_keywords]);
+					echo implode("<br/>",$str);
+					?>
+					</p>
 					<div class="o-btn">
-						<a href="single.html">Read More</a>
+						<a href="{:U('portal/article/index',array('id'=>"$vo[tid]"))}">了解</a>
 					</div>
 				</div>
-				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="__TMPL__Public/images/o-2.jpg" alt="" />
-					<h6>$70</h6></a>
-					<h4><a href="single.html">Donec mattis nunc</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
-					<div class="o-btn">
-						<a href="single.html">Read More</a>
-					</div>
-				</div>
-				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="__TMPL__Public/images/o-3.jpg" alt="" />
-					<h6>$46</h6></a>
-					<h4><a href="single.html">Maecenas non risus</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
-					<div class="o-btn">
-						<a href="single.html">Read More</a>
-					</div>
-				</div>
-				<div class="col-md-3 offer-left">
-					<a href="single.html"><img src="__TMPL__Public/images/o-5.jpg" alt="" />
-					<h6>$80</h6></a>
-					<h4><a href="single.html">Nullam vitae nisl</a></h4>
-					<p>Maecenas interdum augue eget elit interdum, vitae elementum diam molestie. Nulla facilisi.</p>
-					<div class="o-btn">
-						<a href="single.html">Read More</a>
-					</div>
-				</div>
+			</volist>
 				<div class="clearfix"></div>
 			</div>
 		</div>
