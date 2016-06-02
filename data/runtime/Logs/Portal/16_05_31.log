@@ -1,0 +1,806 @@
+[ 2016-05-31T09:50:02+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T09:50:19+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T09:50:46+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T09:52:53+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T10:00:34+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T10:01:40+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T10:03:04+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T10:05:14+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T10:05:33+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:05:47+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:05:50+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:09+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='学龄前培训',`post_source`='',`post_excerpt`='1、学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">一．学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0000s ]
+
+[ 2016-05-31T10:06:12+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:15+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:18+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=6
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:28+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 6 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 6 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 6 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='传统文化教育，培训以及咨询服务',`post_keywords`='传统文化教育，培训以及咨询服务',`post_source`='',`post_excerpt`='以“传播优秀文化，弘扬民族文化”为自身使命，慧谦公司自创办伊始便致力于满足各行各业顾客朋友对传统文化的需求。从儿童国学教育到传统文化大众讲座，再到企业文化咨询服务，我们总能以“追求最好质量，满足最高要求”的宗旨为您们服务。',`post_modified`='2016-05-26 10:37:00',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">传统文化教育，培训以及咨询服务：以“传播优秀文化，弘扬民族文化”为自身使命，慧谦公司自创办伊始便致力于满足各行各业顾客朋友对传统文化的需求。从儿童国学教育到传统文化大众讲座，再到企业文化咨询服务，我们总能以“追求最好质量，满足最高要求”的宗旨为您们服务。（了解更多）</span></p><p style=\"text-indent:27px\">*<span style=\"font-family:宋体\">慧德学堂</span> <span style=\"font-family:宋体\">特色国学夏令营内容衔接填充</span></p><p style=\"text-indent:27px\">*<span style=\"font-family:宋体\">慧德学堂</span> <span style=\"font-family:宋体\">传统文化亲子活动内容衔接填充</span></p><p style=\"text-indent:27px\">*<span style=\"font-family:宋体\">慧德学堂</span> <span style=\"font-family:宋体\">论语·人生·智慧</span> <span style=\"font-family:宋体\">国学经典讲座等内容衔接填充</span></p><p style=\"text-indent:27px\"><span style=\";font-family:宋体\">*</span><span style=\";font-family:宋体\">企业文化咨询服务：企业文化的构建与培养是一件非常困难的任务，其关键在于&quot;落地生根&quot;,不接地气的文化无疑是纸上谈兵，台上的倡导者满怀激情空喊口号,而台下响应者寥寥无几。中华传统文化作为一个先进的文化平台，千百年来在无数先哲的发扬下，其内容博大精深，涵盖了中国社会的方方面面，为世人所熟知。将中国传统文化的先进理念和古老智慧运用到现代企业的管理与运营中，早已被中外大量成功的企业家，管理人士以及学者所践行。</span></p><p style=\"text-indent:27px\"><span style=\";font-family:宋体\">企业文化建设的最高境界是让文化理念融在思想里、沉淀在流程中、落实到岗位上、体现在行动中,要达到这一境界,企业文化传播必不可少。将传统文化的积极因素运用到企业管理和运营中具有极大的意义，表现在:</span></p><p style=\"text-indent:32px;line-height:24px;background:white\"><span style=\"font-size:14px\">一是为企业创造高质量的文化品牌,迅速提升产品或服务品牌的附加值;</span></p><p style=\"text-indent:32px;line-height:24px;background:white\"><span style=\"font-size:14px\">二是践行传统文化的诚信，和谐理念，有利于增强客户或消费者对企业和品牌的忠诚度和依赖感;</span></p><p style=\"text-indent:32px;line-height:24px;background:white\"><span style=\"font-size:14px\">三是以传统文化的感召力影响社会，能起到积极的宣传作用，树立起正面的企业形象，从而为企业在行业，市场上的发展增加推力。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1a118b43.jpg\"}' WHERE `id` = '6' [ RunTime:0.0000s ]
+
+[ 2016-05-31T10:06:31+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:33+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:35+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:39+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:41+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=11
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 11 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 11 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 11 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='传统中医学的养生保健服务',`post_keywords`='传统中医学的养生保健服务',`post_source`='',`post_excerpt`='作为中华传统文化的瑰宝，传统中医学的理论及实践价值长期以来被世人肯定。作为对现代医学的有益补充，中医推拿，艾灸等治疗保健方法能够彻底避免西医药品药剂的副作用，对各个年龄段的人群都有极为有效地的养生功效，慧谦公司旗下拥有一批具备大量医学理论的专家和医师，利用传统中医手段为顾客提供高质量的医疗服务。',`post_modified`='2016-05-26 16:45:10',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p style=\"text-indent:32px;line-height:24px;background:white\">传统中医学的养生保健服务：作为中华传统文化的瑰宝，传统中医学的理论及实践价值长期以来被世人肯定。作为对现代医学的有益补充，中医推拿，艾灸等治疗保健方法能够彻底避免西医药品药剂的副作用，对各个年龄段的人群都有极为有效地的养生功效，慧谦公司旗下拥有一批具备大量医学理论的专家和医师，利用传统中医手段为顾客提供高质量的医疗服务。（了解更多）</p><p style=\"text-indent:32px;line-height:24px;background:white\">*(小儿)推拿宣传内容衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*艾灸与女性健康宣传内容衔接填充</p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1b5cc315.jpg\"}' WHERE `id` = '11' [ RunTime:0.0000s ]
+
+[ 2016-05-31T10:06:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:06:59+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:07:02+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=12
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T10:07:09+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 12 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 12 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 12 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='中华传统文化对外交流',`post_keywords`='中华传统文化对外交流',`post_source`='',`post_excerpt`='长期以来，慧谦公司致力于传播推广中国传统文化，将中国文化的各个方面以各种渠道介绍给中外友人，同时我们也愿意并且践行自身的理念，努力使自身成为中外文化交流的桥梁，建设一流的文化交流平台，使得更多的国内文化界人士能够利用我们高质量的平台资源，将业务，服务，产品推向世界。',`post_modified`='2016-05-26 16:46:42',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p style=\"line-height:24px;background:white\">长期以来，慧谦公司致力于传播推广中国传统文化，将中国文化的各个方面以各种渠道介绍给中外友人，同时我们也愿意并且践行自身的理念，努力使自身成为中外文化交流的桥梁，建设一流的文化交流平台，使得更多的国内文化界人士能够利用我们高质量的平台资源，将业务，服务，产品推向世界。（了解更多）</p><p style=\"text-indent:32px;line-height:24px;background:white\">*公司高层外访图片以及描述衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*外方人士来访图片以及描述衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*大型接待活动图片以及描述衔接填充</p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1c9d38d6.jpg\"}' WHERE `id` = '12' [ RunTime:0.0000s ]
+
+[ 2016-05-31T10:07:14+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T14:11:54+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:12:05+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:12:17+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=delete&id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_terms` WHERE `parent` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_terms` WHERE `term_id` = 11 [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:12:21+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=delete&id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_terms` WHERE `parent` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_terms` WHERE `term_id` = 12 [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:12:26+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=delete&id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_terms` WHERE `parent` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_terms` WHERE `term_id` = 13 [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:14:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminTerm&a=delete&id=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_terms` WHERE `parent` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_terms` WHERE `term_id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-05-31T14:14:58+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:15:07+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/js/qrcode.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T14:15:07+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/js/qrcode.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T14:15:25+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='0' WHERE ( tid in (37,36,34,33) ) [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:15:26+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:15:38+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:15:42+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:15:58+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='学龄前培训',`post_source`='',`post_excerpt`='作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:16:03+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:19:49+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:19:51+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:23:10+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0156s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='以读经教育为主题的特色学龄前教育大批年轻且经验丰富的国学老师树立孩子们正确的价值观，世界观和人生观',`post_source`='',`post_excerpt`='作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:23:13+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:25:30+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:25:33+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:25:41+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='1111以读经教育为主题的特色学龄前教育大批年轻且经验丰富的国学老师树立孩子们正确的价值观，世界观和人生观',`post_source`='',`post_excerpt`='作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0010s ]
+
+[ 2016-05-31T14:26:56+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:28:44+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:28:47+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:30:01+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='以读经教育为主题的特色学龄前教育$$$大批年轻且经验丰富的国学老师$$$树立孩子们正确的价值观，世界观和人生观',`post_source`='',`post_excerpt`='作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:30:04+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:41:44+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:41:46+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:57:08+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:57:12+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:57:15+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=6
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:58:04+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:58:08+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:58:10+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=6
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:59:09+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 6 AND `term_id` NOT IN ('9') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 6 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 6 AND `term_id` = '9' [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='传统文化教育，培训以及咨询服务',`post_keywords`='以“传播优秀文化，弘扬民族文化”使命$$$满足各行各业朋友对传统文化的需求$$$“追求最好质量，满足最高要求',`post_source`='',`post_excerpt`='以“传播优秀文化，弘扬民族文化”为自身使命，慧谦公司自创办伊始便致力于满足各行各业顾客朋友对传统文化的需求。从儿童国学教育到传统文化大众讲座，再到企业文化咨询服务，我们总能以“追求最好质量，满足最高要求”的宗旨为您们服务。',`post_modified`='2016-05-26 10:37:00',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">传统文化教育，培训以及咨询服务：以“传播优秀文化，弘扬民族文化”为自身使命，慧谦公司自创办伊始便致力于满足各行各业顾客朋友对传统文化的需求。从儿童国学教育到传统文化大众讲座，再到企业文化咨询服务，我们总能以“追求最好质量，满足最高要求”的宗旨为您们服务。（了解更多）</span></p><p style=\"text-indent:27px\">*<span style=\"font-family:宋体\">慧德学堂</span> <span style=\"font-family:宋体\">特色国学夏令营内容衔接填充</span></p><p style=\"text-indent:27px\">*<span style=\"font-family:宋体\">慧德学堂</span> <span style=\"font-family:宋体\">传统文化亲子活动内容衔接填充</span></p><p style=\"text-indent:27px\">*<span style=\"font-family:宋体\">慧德学堂</span> <span style=\"font-family:宋体\">论语·人生·智慧</span> <span style=\"font-family:宋体\">国学经典讲座等内容衔接填充</span></p><p style=\"text-indent:27px\"><span style=\";font-family:宋体\">*</span><span style=\";font-family:宋体\">企业文化咨询服务：企业文化的构建与培养是一件非常困难的任务，其关键在于&quot;落地生根&quot;,不接地气的文化无疑是纸上谈兵，台上的倡导者满怀激情空喊口号,而台下响应者寥寥无几。中华传统文化作为一个先进的文化平台，千百年来在无数先哲的发扬下，其内容博大精深，涵盖了中国社会的方方面面，为世人所熟知。将中国传统文化的先进理念和古老智慧运用到现代企业的管理与运营中，早已被中外大量成功的企业家，管理人士以及学者所践行。</span></p><p style=\"text-indent:27px\"><span style=\";font-family:宋体\">企业文化建设的最高境界是让文化理念融在思想里、沉淀在流程中、落实到岗位上、体现在行动中,要达到这一境界,企业文化传播必不可少。将传统文化的积极因素运用到企业管理和运营中具有极大的意义，表现在:</span></p><p style=\"text-indent:32px;line-height:24px;background:white\"><span style=\"font-size:14px\">一是为企业创造高质量的文化品牌,迅速提升产品或服务品牌的附加值;</span></p><p style=\"text-indent:32px;line-height:24px;background:white\"><span style=\"font-size:14px\">二是践行传统文化的诚信，和谐理念，有利于增强客户或消费者对企业和品牌的忠诚度和依赖感;</span></p><p style=\"text-indent:32px;line-height:24px;background:white\"><span style=\"font-size:14px\">三是以传统文化的感召力影响社会，能起到积极的宣传作用，树立起正面的企业形象，从而为企业在行业，市场上的发展增加推力。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1a118b43.jpg\"}' WHERE `id` = '6' [ RunTime:0.0000s ]
+
+[ 2016-05-31T14:59:43+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:59:48+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T14:59:51+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=11
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:00:35+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:00:39+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:00:42+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:01:05+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='以读经教育$$$为主题的特色学龄前教育大批年轻且经验丰富的国学老师$$$树立孩子们正确的价值观，世界观和人生观',`post_source`='',`post_excerpt`='作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0000s ]
+
+[ 2016-05-31T15:01:07+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:02:20+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:02:23+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=11
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:02:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0040s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 11 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 11 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 11 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='传统中医学的养生保健服务',`post_keywords`='普及中医推拿，艾灸等治疗保健方法$$$大批具备大量医学理论的专家和医师$$$极为有效地的养生功效',`post_source`='',`post_excerpt`='作为中华传统文化的瑰宝，传统中医学的理论及实践价值长期以来被世人肯定。作为对现代医学的有益补充，中医推拿，艾灸等治疗保健方法能够彻底避免西医药品药剂的副作用，对各个年龄段的人群都有极为有效地的养生功效，慧谦公司旗下拥有一批具备大量医学理论的专家和医师，利用传统中医手段为顾客提供高质量的医疗服务。',`post_modified`='2016-05-26 16:45:10',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p style=\"text-indent:32px;line-height:24px;background:white\">传统中医学的养生保健服务：作为中华传统文化的瑰宝，传统中医学的理论及实践价值长期以来被世人肯定。作为对现代医学的有益补充，中医推拿，艾灸等治疗保健方法能够彻底避免西医药品药剂的副作用，对各个年龄段的人群都有极为有效地的养生功效，慧谦公司旗下拥有一批具备大量医学理论的专家和医师，利用传统中医手段为顾客提供高质量的医疗服务。（了解更多）</p><p style=\"text-indent:32px;line-height:24px;background:white\">*(小儿)推拿宣传内容衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*艾灸与女性健康宣传内容衔接填充</p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1b5cc315.jpg\"}' WHERE `id` = '11' [ RunTime:0.0000s ]
+
+[ 2016-05-31T15:03:53+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:03:57+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:04:08+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=12
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:04:35+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 12 AND `term_id` NOT IN ('9') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 12 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 12 AND `term_id` = '9' [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='中华传统文化对外交流',`post_keywords`='成为中外文化交流的桥梁$$$建设一流的文化交流平台$$$致力于传播推广中国传统文化',`post_source`='',`post_excerpt`='长期以来，慧谦公司致力于传播推广中国传统文化，将中国文化的各个方面以各种渠道介绍给中外友人，同时我们也愿意并且践行自身的理念，努力使自身成为中外文化交流的桥梁，建设一流的文化交流平台，使得更多的国内文化界人士能够利用我们高质量的平台资源，将业务，服务，产品推向世界。',`post_modified`='2016-05-26 16:46:42',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p style=\"line-height:24px;background:white\">长期以来，慧谦公司致力于传播推广中国传统文化，将中国文化的各个方面以各种渠道介绍给中外友人，同时我们也愿意并且践行自身的理念，努力使自身成为中外文化交流的桥梁，建设一流的文化交流平台，使得更多的国内文化界人士能够利用我们高质量的平台资源，将业务，服务，产品推向世界。（了解更多）</p><p style=\"text-indent:32px;line-height:24px;background:white\">*公司高层外访图片以及描述衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*外方人士来访图片以及描述衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*大型接待活动图片以及描述衔接填充</p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1c9d38d6.jpg\"}' WHERE `id` = '12' [ RunTime:0.0010s ]
+
+[ 2016-05-31T15:04:40+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:05:01+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:05:05+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=12
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:05:16+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 12 AND `term_id` NOT IN ('9') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 12 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 12 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='中华传统文化对外交流',`post_keywords`='成为中外文化交流的桥梁$$$建设一流的文化交流平台$$$致力于传播推广中国传统文化',`post_source`='',`post_excerpt`='长期以来，慧谦公司致力于传播推广中国传统文化，将中国文化的各个方面以各种渠道介绍给中外友人，同时我们也愿意并且践行自身的理念，努力使自身成为中外文化交流的桥梁，建设一流的文化交流平台，使得更多的国内文化界人士能够利用我们高质量的平台资源，将业务，服务，产品推向世界。',`post_modified`='2016-05-26 16:46:42',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p style=\"line-height:24px;background:white\">长期以来，慧谦公司致力于传播推广中国传统文化，将中国文化的各个方面以各种渠道介绍给中外友人，同时我们也愿意并且践行自身的理念，努力使自身成为中外文化交流的桥梁，建设一流的文化交流平台，使得更多的国内文化界人士能够利用我们高质量的平台资源，将业务，服务，产品推向世界。（了解更多）</p><p style=\"text-indent:32px;line-height:24px;background:white\">*公司高层外访图片以及描述衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*外方人士来访图片以及描述衔接填充</p><p style=\"text-indent:32px;line-height:24px;background:white\">*大型接待活动图片以及描述衔接填充</p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf1c9d38d6.jpg\"}' WHERE `id` = '12' [ RunTime:0.0000s ]
+
+[ 2016-05-31T15:05:19+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:07:39+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:07:42+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=9&id=5
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:07:58+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` NOT IN ('9') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 5 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 5 AND `term_id` = '9' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='学龄前培训',`post_keywords`='以读经教育为主题的特色学龄前教育$$$大批年轻且经验丰富的国学老师$$$树立孩子们正确的价值观，世界观和人生观',`post_source`='',`post_excerpt`='作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。',`post_modified`='2016-05-26 10:36:13',`post_status`='1',`istop`='1',`recommended`='1',`post_content`='<p><span style=\"font-family:宋体\">学龄前培训：作为公司的重要文化服务产品，慧谦公司倡导的以读经教育为主题的特色学龄前教育一直以来深受众多家长朋友们的肯定和孩子们的热爱。公司现拥有慧德学堂和慧德书院两大专业的国学教育机构，同时聚集了一大批年轻且经验丰富的国学老师，从传统的读经教育以树立孩子们正确的价值观，世界观和人生观，到琴棋书画等传统艺术课程对孩子童年生活的充实，丰富，传统文化教育是孩子们学习生涯的一盏明灯，也是解决诸多爸爸妈妈在家庭教育上苦恼的良方。（了解更多）</span>*<span style=\"font-family:宋体\">慧德学堂的教育板块进行衔接与填充。</span></p><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574cf18d62a5c.jpg\"}' WHERE `id` = '5' [ RunTime:0.0000s ]
+
+[ 2016-05-31T15:08:01+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T15:47:54+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/simpleboot/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T15:47:59+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/simpleboot/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:05:24+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:24+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:24+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:24+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:49+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:49+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:50+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:50+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:57+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:57+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:58+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:05:58+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:06:13+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:06:52+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:06:52+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:06:52+08:00 ] ::1 /ThinkCMFtigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:06:53+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:06:53+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:29+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:29+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:31+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:31+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:34+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:34+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:36+08:00 ] ::1 /thinkcmftigo/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:07:36+08:00 ] ::1 /thinkcmftigo/js/slider.js
+ERR: 无法加载控制器:Js
+
+[ 2016-05-31T16:22:34+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:23:56+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:25:42+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:26:13+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:26:49+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:27:28+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:27:29+08:00 ] ::1 /ThinkCMFtigo/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:27:33+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:27:36+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=4&id=16
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:28:48+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160527\\/5747b89c6e36f.jpg\"}' WHERE `id` = '16' [ RunTime:0.0010s ]
+
+[ 2016-05-31T16:28:51+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:28:53+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:29:13+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:29:15+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=4&id=16
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:29:54+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。\\r\\n
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160527\\/5747b89c6e36f.jpg\"}' WHERE `id` = '16' [ RunTime:0.0010s ]
+
+[ 2016-05-31T16:29:56+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:29:59+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:30:07+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:35:55+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:36:00+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:36:10+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=4&id=16
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:36:38+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。\\r\\n
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4d0e44668.jpg\"}' WHERE `id` = '16' [ RunTime:0.0010s ]
+
+[ 2016-05-31T16:38:33+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。$$$
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4d0e44668.jpg\"}' WHERE `id` = '16' [ RunTime:0.0000s ]
+
+[ 2016-05-31T16:38:36+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:42:56+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:43:00+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit&term=4&id=16
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-05-31T16:43:52+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。$$$
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><img src=\"http://localhost/ThinkCMFtigo/data/upload/ueditor/20160531/574d4ec54b437.jpg\" title=\"11.jpg\" alt=\"11.jpg\"/><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4d0e44668.jpg\"}' WHERE `id` = '16' [ RunTime:0.0010s ]
+
+[ 2016-05-31T16:44:04+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。$$$
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><img src=\"http://localhost/ThinkCMFtigo/data/upload/ueditor/20160531/574d4ec54b437.jpg\" title=\"11.jpg\" alt=\"11.jpg\"/><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4ecf63160.jpg\"}' WHERE `id` = '16' [ RunTime:0.0000s ]
+
+[ 2016-05-31T16:45:02+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0040s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。$$$
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><img src=\"http://localhost/ThinkCMFtigo/data/upload/ueditor/20160531/574d4ec54b437.jpg\" title=\"11.jpg\" alt=\"11.jpg\" style=\"float: left;\"/><span style=\"font-size:20px\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size:20px\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4ecf63160.jpg\"}' WHERE `id` = '16' [ RunTime:0.0010s ]
+
+[ 2016-05-31T16:47:29+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。$$$
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><img src=\"http://localhost/ThinkCMFtigo/data/upload/ueditor/20160531/574d4ec54b437.jpg\" title=\"11.jpg\" alt=\"11.jpg\" style=\"float: left;\"/><span style=\"font-size: 14px;\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px;\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px;\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px;\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px;\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px;\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4ecf63160.jpg\"}' WHERE `id` = '16' [ RunTime:0.0000s ]
+
+[ 2016-05-31T16:47:51+08:00 ] ::1 /ThinkCMFtigo/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` NOT IN ('4') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 16 AND `term_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 16 AND `term_id` = '4' [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_posts` SET `post_title`=' 论语•人生•智慧 国学经典讲座',`post_keywords`='',`post_source`='',`post_excerpt`='无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。$$$
+古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。
+',`post_modified`='2016-05-27 11:00:34',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><img src=\"http://localhost/ThinkCMFtigo/data/upload/ueditor/20160531/574d4ec54b437.jpg\" title=\"11.jpg\" alt=\"11.jpg\" style=\"float: left;\"/><span style=\"font-size: 14px; font-family: 宋体, SimSun;\">无论时代如何变迁，无论社会如何改变，无论我们会遭遇何种挫折，体验何种快乐，亦或经历何种成长，人这一生总是在学习的路上。学习，需要尺标，需要明灯，需要导师，却有一本著作值得我们去细细品读，去思索，去体悟——《论语》。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px; font-family: 宋体, SimSun;\">古往今来的中华人都注重修身立命，何谓修身，参通天、地、人三者也，何谓立命，诚明正心，执守道本以顺天命。论语编写于春秋，千百年来，其中通俗易懂，鞭辟入里的哲论引导着无数的华夏人走出蒙昧，安身立命，直至造福苍生。就这点来说，论语成为了世代国人的启蒙教材，其在中国历史上的重要性无可替代。</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px; font-family: 宋体, SimSun;\">当今中国教育主要侧重于科学知识与技能技巧的普及，而以《论语》为基础的传统文化教材，则是侧重培育儿童思想道德，从小为其树立正确的人生观，价值观，世界观。在纷繁复杂的现代社会中，生活、学习，现今工作的节奏是如此之快，即使是学识丰富，心志坚强的成年人亦难以做到“三省吾身”，极难抗拒物质，名利的诱惑，以至于浮躁，使得自己迷失本心，精神痛苦，相较之下，懵懂的儿童如若忽视德育，内心不受锻炼磨砺，却是更难适应变化复杂的社会发展。如此，《论语》为我们提供的关于道德，价值观的先贤智慧是对当今教育的有益补充。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px; font-family: 宋体, SimSun;\">茁壮成长的童年是人一生中学习能力，模仿能力最强的阶段，儿童如同白纸，而父母的言传身教则是这白纸上最初的色彩，由此可见父母的角色对儿童何其重要。</span></h2><h2 style=\"text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px; font-family: 宋体, SimSun;\">与西方个人主义文化截然不同，中国社会重视集体文化，珍视和谐社会，而和谐社会必须要落实到每个家庭之上，因此中国历史上历来都探讨“小家“与”大家”的辩证关系。很遗憾的是，当今社会里，不少父母迫于生活和工作压力，与子女相处的时间越来越短，甚至完全没有，造成父母不被子女爱戴，子女更得不到父母的关爱，如此一来双方代沟愈加明显，家庭问题和道德问题也越来越多。我们倡导大家重新拾起论语，因为论语的智慧重在礼教，重在明每个人在家庭，社会中的关系，学习品读它，不仅是为了从小让子女知道父母的伟大，教会子女去爱戴父母，也为让父母重新建立起家庭观念，认识到自身对孩子发展的重要意义，唯有如此才能达到家庭和谐的纯粹目的</span></h2><h2 style=\"margin-top:0;margin-right:0;margin-bottom:14px;margin-left: 0;text-indent:40px;border:none;padding:0;padding:0 0 11px 0\"><span style=\"font-size: 14px; font-family: 宋体, SimSun;\">六月十八号慧德学堂将举办&nbsp; “ 再续论语•人生•智慧－国学经典讲座”，著名传统文化教育家－杨文老师将再次造访慧德学堂，为到场的父母和孩子答疑解惑，分享他对传统文化教育的理解，经验和智慧。</span></h2><p><br/></p>',`smeta`='{\"thumb\":\"20160531\\/574d4ecf63160.jpg\"}' WHERE `id` = '16' [ RunTime:0.0000s ]
+
+[ 2016-05-31T16:55:17+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:57:29+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+
+[ 2016-05-31T16:59:11+08:00 ] ::1 /thinkcmftigo/themes/maje/Public/css/bootstrap.css.map
+ERR: 无法加载控制器:Themes
+

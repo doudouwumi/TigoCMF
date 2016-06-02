@@ -1,0 +1,52 @@
+[ 2016-06-01T11:52:34+08:00 ] ::1 /thinkcmftigo/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-01T11:52:40+08:00 ] ::1 /thinkcmftigo/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0200s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.1370s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###2525cac6a628a1660d8556b3f13c6dca',`user_nicename`='admin',`user_email`='admin@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2016-06-01 11:52:40',`create_time`='2016-05-25 04:17:03',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0000s ]
+
+[ 2016-06-01T12:58:20+08:00 ] ::1 /thinkcmftigo/index.php?g=Admin&m=slide&a=cancelban&id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_slide` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_slide_cat` [ RunTime:0.0030s ]
+SQL: UPDATE `cmf_slide` SET `slide_status`='1' WHERE ( slide_id in (2) ) [ RunTime:0.0010s ]
+
+[ 2016-06-01T12:58:36+08:00 ] ::1 /thinkcmftigo/index.php?g=Admin&m=slide&a=delete&id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_slide` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_slide_cat` [ RunTime:0.0030s ]
+SQL: DELETE FROM `cmf_slide` WHERE `slide_id` = 2 [ RunTime:0.0000s ]
+
+[ 2016-06-01T12:58:59+08:00 ] ::1 /thinkcmftigo/index.php?g=Admin&m=slide&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_slide` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_slide_cat` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Web\ThinkCMFtigo\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_slide` (`slide_cid`,`slide_name`,`slide_url`,`slide_des`,`slide_content`,`slide_pic`) VALUES ('1','啊盛大盛大','','','','/thinkcmftigo/data/upload/20160601/574e6b904aed1.jpg') [ RunTime:0.0000s ]
+
